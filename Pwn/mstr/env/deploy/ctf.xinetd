@@ -1,0 +1,18 @@
+
+service ctf
+{
+    disable         = no
+    socket_type     = stream
+    protocol        = tcp
+    wait            = no
+    user            = ctf
+    server          = /bin/stdbuf
+    server_args     = -i0 -o0 -e0 /usr/local/bin/python3 /home/ctf/mstr.py
+    type            = UNLISTED
+    port            = 9999
+    bind            = 0.0.0.0
+    banner_fail     = /etc/banner_fail
+    per_source      = 512
+    rlimit_cpu      = 20 #
+    rlimit_as       = 100M 
+}

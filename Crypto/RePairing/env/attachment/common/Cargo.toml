@@ -1,0 +1,13 @@
+[package]
+name = "common"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ark-bls12-381 = "0.5"
+ark-ec         = "0.5"
+ark-ff         = "0.5"
+ark-serialize  = "0.5"
+sha2           = "0.10"
+rand           = "0.8"
+hex            = "0.4"

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  pwn_challenge:
+    build: .
+    container_name: pwn_rd
+    ports:
+      - "13331:13331"
+    restart: always
+    ulimits:
+      nproc: 64
+      nofile: 1024

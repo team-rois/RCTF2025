@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  chal:
+    image: chal
+    security_opt:
+      - seccomp=unconfined
+    ports:
+      - "0.0.0.0:9981:9999"

@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Alchemist's Cage</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body class="bg-slate-950 text-slate-100 min-h-screen font-sans">
+    <div class="flex min-h-screen items-center justify-center px-6 py-10">
+      <div
+        class="w-full max-w-4xl rounded-3xl border border-slate-800 bg-slate-900/70 p-2 shadow-2xl shadow-indigo-900/30 backdrop-blur"
+      >
+        <div
+          class="rounded-3xl border border-slate-800 bg-slate-900/80 p-8 transition-all duration-300"
+        >
+          <header class="mb-6 flex flex-col text-center">
+              <h1 class="font-display text-[2.2rem] leading-tight text-amber-300">
+                The Alchemist's Cage
+              </h1>
+              <p class="text-sm text-slate-300">
+                Forge a flawed golem. Exploit its weakness in five turns before
+                it is reclaimed by the Alchemist.
+            </p>
+          </header>
+
+          <section
+            id="statusBanner"
+            class="mb-4 rounded-2xl border border-indigo-700/40 bg-indigo-900/30 px-5 py-4 text-sm text-indigo-200"
+          >
+            State: Design — negotiate with the Alchemist.
+          </section>
+
+          <main class="mt-6 grid gap-6 lg:grid-cols-[2fr,1fr]">
+            <section
+              class="flex min-h-[26rem] flex-col rounded-2xl border border-slate-800 bg-slate-950/60 lg:min-h-[32rem]"
+            >
+              <div
+                class="chat-toolbar flex flex-wrap items-center justify-between gap-4 border-b border-slate-800 px-6 py-5"
+              >
+                <p
+                  id="chatTitle"
+                  class="text-lg font-semibold leading-tight tracking-wide text-slate-100"
+                >
+                  Interrogation of the Golem
+                </p>
+                <div class="flex flex-wrap items-center gap-3 sm:gap-4 md:gap-5">
+                  <span
+                    id="apiStatus"
+                    class="api-status-mini status-pill"
+                    aria-live="polite"
+                  >
+                    <span
+                      id="apiStatusDot"
+                      class="api-status-dot api-status-dot--info"
+                      aria-hidden="true"
+                    ></span>
+                    <span id="apiStatusSummary" class="status-pill-text"></span>
+                  </span>
+                  <span id="apiStatusLabel" class="sr-only">API status idle</span>
+                  <span
+                    id="turnIndicator"
+                    class="status-pill hidden"
+                  >
+                    <span class="status-pill-label">Turns</span>
+                    <span class="status-pill-value">
+                      <span id="turnCount">5</span>/5
+                    </span>
+                  </span>
+                  <button
+                    id="destroyButton"
+                    class="hidden rounded-full border border-amber-500/40 bg-amber-500/10 px-3 py-2 text-[0.6rem] font-semibold uppercase tracking-[0.2em] text-amber-300 transition hover:bg-amber-500/20"
+                    type="button"
+                  >
+                    Destroy Golem
+                  </button>
+                  <button
+                    id="resetButton"
+                    class="rounded-full border border-slate-600/60 bg-slate-800/60 px-3 py-2 text-[0.6rem] font-semibold uppercase tracking-[0.2em] text-slate-200 transition hover:bg-slate-700/70"
+                    type="button"
+                  >
+                    Reset Session
+                  </button>
+                </div>
+              </div>
+
+              <div
+                id="chatHistory"
+                class="custom-scroll flex-1 space-y-4 overflow-y-auto px-6 py-4"
+              ></div>
+
+              <form
+                id="inputForm"
+                class="border-t border-slate-800 bg-slate-950/60 px-4 py-4"
+              >
+                <div class="flex gap-3">
+                  <label for="messageInput" class="sr-only">Offer your message to the golem</label>
+                  <input
+                    id="messageInput"
+                    type="text"
+                    maxlength="100"
+                    autocomplete="off"
+                    placeholder="Offer a soul seed of 30 characters or less..."
+                    class="flex-1 rounded-2xl border border-slate-800 bg-slate-900/70 px-4 py-3 text-sm text-slate-100 placeholder:text-slate-500 focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-600/50"
+                  />
+                  <button
+                    type="submit"
+                    class="rounded-2xl bg-indigo-600 px-5 py-3 text-sm font-semibold uppercase tracking-widest text-white transition hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-slate-950"
+                  >
+                    Send
+                  </button>
+                </div>
+                <p
+                  id="helperText"
+                  class="mt-3 text-xs text-slate-500"
+                >
+                  Sensitive incantations are silently intercepted for safety.
+                </p>
+              </form>
+            </section>
+
+            <aside
+              class="flex min-h-[24rem] flex-col rounded-2xl border border-indigo-900/40 bg-indigo-950/40 px-6 py-5"
+            >
+              <h2 class="font-display text-xl text-amber-200">
+                Arcane Ledger
+              </h2>
+              <p class="mt-2 text-xs text-indigo-200/70">
+                Track the Alchemist's decrees and the flaw etched into your
+                golem. Exploit it before the fifth turn expires.
+              </p>
+              <dl class="mt-6 space-y-4 text-sm text-slate-200">
+                <div>
+                  <dt class="text-xs uppercase tracking-widest text-indigo-400">
+                    Current State
+                  </dt>
+                  <dd id="stateLabel" class="mt-1 text-slate-100">
+                    Design — awaiting a worthy soul seed.
+                  </dd>
+                </div>
+                <div>
+                  <dt class="text-xs uppercase tracking-widest text-indigo-400">
+                    Persona Trace
+                  </dt>
+                  <dd
+                    id="personaDescription"
+                    class="mt-1 text-slate-300"
+                  >
+                    No golem has been forged yet.
+                  </dd>
+                </div>
+              </dl>
+              <div class="mt-auto pt-6 text-xs text-indigo-200/60">
+                Manipulate, cajole, and coax. When you sense the flaw, strike
+                with precision.
+              </div>
+            </aside>
+          </main>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/dompurify@3.0.8/dist/purify.min.js"
+      defer
+    ></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}" defer></script>
+  </body>
+</html>

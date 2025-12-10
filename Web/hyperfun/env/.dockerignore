@@ -1,0 +1,10 @@
+**
+!app/
+!bin/
+!config/
+!storage
+!composer.*
+!vendor.zip
+!database.db
+!rctf_2025_flag
+!default.conf

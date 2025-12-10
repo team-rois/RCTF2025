@@ -1,0 +1,2194 @@
+{
+    "standings": [
+        {
+            "pos": 1,
+            "team": "Nu1L",
+            "score": 19721.6,
+            "lastAccept": 1763342565
+        },
+        {
+            "pos": 2,
+            "team": "Arr3stY0u",
+            "score": 12023.56,
+            "lastAccept": 1763343313
+        },
+        {
+            "pos": 3,
+            "team": "infobahn",
+            "score": 11741.73,
+            "lastAccept": 1763344065
+        },
+        {
+            "pos": 4,
+            "team": "jwbs",
+            "score": 11278.81,
+            "lastAccept": 1763344065
+        },
+        {
+            "pos": 5,
+            "team": "SU",
+            "score": 9890.3,
+            "lastAccept": 1763344150
+        },
+        {
+            "pos": 6,
+            "team": "Lilac",
+            "score": 8877.48,
+            "lastAccept": 1763344065
+        },
+        {
+            "pos": 7,
+            "team": "天枢Dubhe",
+            "score": 7876.94,
+            "lastAccept": 1763342566
+        },
+        {
+            "pos": 8,
+            "team": "0psu3",
+            "score": 7468.0,
+            "lastAccept": 1763344150
+        },
+        {
+            "pos": 9,
+            "team": "L",
+            "score": 7241.34,
+            "lastAccept": 1763344150
+        },
+        {
+            "pos": 10,
+            "team": "Spirit+",
+            "score": 6777.17,
+            "lastAccept": 1763341237
+        },
+        {
+            "pos": 11,
+            "team": "N0wayBack",
+            "score": 6367.56,
+            "lastAccept": 1763300333
+        },
+        {
+            "pos": 12,
+            "team": "JNSEC",
+            "score": 6157.14,
+            "lastAccept": 1763320940
+        },
+        {
+            "pos": 13,
+            "team": "Ph0t1n1a",
+            "score": 5475.99,
+            "lastAccept": 1763311334
+        },
+        {
+            "pos": 14,
+            "team": "W&M",
+            "score": 5064.03,
+            "lastAccept": 1763343313
+        },
+        {
+            "pos": 15,
+            "team": "_0xFFF_",
+            "score": 5052.0,
+            "lastAccept": 1763330308
+        },
+        {
+            "pos": 16,
+            "team": "XMCVE-Polaris",
+            "score": 5010.05,
+            "lastAccept": 1763320291
+        },
+        {
+            "pos": 17,
+            "team": "Nepnep",
+            "score": 4589.0,
+            "lastAccept": 1763322753
+        },
+        {
+            "pos": 18,
+            "team": "有点调皮",
+            "score": 4582.09,
+            "lastAccept": 1763342565
+        },
+        {
+            "pos": 19,
+            "team": "V&N",
+            "score": 4556.0,
+            "lastAccept": 1763327459
+        },
+        {
+            "pos": 20,
+            "team": "だから僕はCTFを辞めた",
+            "score": 4467.45,
+            "lastAccept": 1763341337
+        },
+        {
+            "pos": 21,
+            "team": "L3H Sec",
+            "score": 4211.7,
+            "lastAccept": 1763321060
+        },
+        {
+            "pos": 22,
+            "team": "HASHTEAM",
+            "score": 4094.0,
+            "lastAccept": 1763291108
+        },
+        {
+            "pos": 23,
+            "team": "UKFC",
+            "score": 4092.0,
+            "lastAccept": 1763344065
+        },
+        {
+            "pos": 24,
+            "team": "POFP",
+            "score": 3798.13,
+            "lastAccept": 1763317911
+        },
+        {
+            "pos": 25,
+            "team": "郑州软件职业技术学院1队-Sec",
+            "score": 3789.76,
+            "lastAccept": 1763344150
+        },
+        {
+            "pos": 26,
+            "team": "USTC-NEBULA",
+            "score": 3757.0,
+            "lastAccept": 1763318423
+        },
+        {
+            "pos": 27,
+            "team": "A1natas",
+            "score": 3418.0,
+            "lastAccept": 1763308496
+        },
+        {
+            "pos": 28,
+            "team": "Become",
+            "score": 3410.66,
+            "lastAccept": 1763342646
+        },
+        {
+            "pos": 29,
+            "team": "Tarot Triad Tron",
+            "score": 3359.0,
+            "lastAccept": 1763322855
+        },
+        {
+            "pos": 30,
+            "team": "TimeKeeper",
+            "score": 3208.26,
+            "lastAccept": 1763343313
+        },
+        {
+            "pos": 31,
+            "team": "广外女生-new",
+            "score": 3182.0,
+            "lastAccept": 1763299750
+        },
+        {
+            "pos": 32,
+            "team": "Syclover",
+            "score": 3126.05,
+            "lastAccept": 1763343598
+        },
+        {
+            "pos": 33,
+            "team": "poiko",
+            "score": 2580.0,
+            "lastAccept": 1763304362
+        },
+        {
+            "pos": 34,
+            "team": "N0r7hSt4r",
+            "score": 2548.0,
+            "lastAccept": 1763298175
+        },
+        {
+            "pos": 35,
+            "team": "GameWor1d",
+            "score": 2539.0,
+            "lastAccept": 1763303889
+        },
+        {
+            "pos": 36,
+            "team": "Scr1w",
+            "score": 2509.07,
+            "lastAccept": 1763302856
+        },
+        {
+            "pos": 37,
+            "team": "Twilight.",
+            "score": 2385.0,
+            "lastAccept": 1763282495
+        },
+        {
+            "pos": 38,
+            "team": "LapR1skT",
+            "score": 2296.0,
+            "lastAccept": 1763342023
+        },
+        {
+            "pos": 39,
+            "team": "SUS@2025",
+            "score": 2169.9,
+            "lastAccept": 1763319350
+        },
+        {
+            "pos": 40,
+            "team": "posix",
+            "score": 2145.12,
+            "lastAccept": 1763338606
+        },
+        {
+            "pos": 41,
+            "team": "Novaxis",
+            "score": 2080.0,
+            "lastAccept": 1763304279
+        },
+        {
+            "pos": 42,
+            "team": "BITs2Sys",
+            "score": 2047.0,
+            "lastAccept": 1763286184
+        },
+        {
+            "pos": 43,
+            "team": "Overf1ow",
+            "score": 2015.0,
+            "lastAccept": 1763293385
+        },
+        {
+            "pos": 44,
+            "team": "Haxor",
+            "score": 1986.0,
+            "lastAccept": 1763342566
+        },
+        {
+            "pos": 45,
+            "team": "Redbud",
+            "score": 1968.0,
+            "lastAccept": 1763307563
+        },
+        {
+            "pos": 46,
+            "team": "BE on",
+            "score": 1954.12,
+            "lastAccept": 1763306680
+        },
+        {
+            "pos": 47,
+            "team": "CE",
+            "score": 1898.0,
+            "lastAccept": 1763279847
+        },
+        {
+            "pos": 48,
+            "team": "Xp0int",
+            "score": 1808.0,
+            "lastAccept": 1763281192
+        },
+        {
+            "pos": 49,
+            "team": "Venom",
+            "score": 1715.42,
+            "lastAccept": 1763341237
+        },
+        {
+            "pos": 50,
+            "team": "MacHackers",
+            "score": 1599.0,
+            "lastAccept": 1763281247
+        },
+        {
+            "pos": 51,
+            "team": "Plaid Parliament of Pwning",
+            "score": 1593.0,
+            "lastAccept": 1763280047
+        },
+        {
+            "pos": 52,
+            "team": "TRX",
+            "score": 1501.33,
+            "lastAccept": 1763271629
+        },
+        {
+            "pos": 53,
+            "team": "Rweb_",
+            "score": 1484.0,
+            "lastAccept": 1763308206
+        },
+        {
+            "pos": 54,
+            "team": "SAPRA",
+            "score": 1417.0,
+            "lastAccept": 1763320941
+        },
+        {
+            "pos": 55,
+            "team": "BXS",
+            "score": 1374.0,
+            "lastAccept": 1763296991
+        },
+        {
+            "pos": 56,
+            "team": "火锅不加辣",
+            "score": 1364.0,
+            "lastAccept": 1763316365
+        },
+        {
+            "pos": 57,
+            "team": "miniChive",
+            "score": 1358.0,
+            "lastAccept": 1763281213
+        },
+        {
+            "pos": 58,
+            "team": "Wade",
+            "score": 1349.0,
+            "lastAccept": 1763343598
+        },
+        {
+            "pos": 59,
+            "team": "X1cT34m",
+            "score": 1332.0,
+            "lastAccept": 1763297267
+        },
+        {
+            "pos": 60,
+            "team": "天命",
+            "score": 1170.0,
+            "lastAccept": 1763309692
+        },
+        {
+            "pos": 61,
+            "team": "Neuro",
+            "score": 1128.6,
+            "lastAccept": 1763306680
+        },
+        {
+            "pos": 62,
+            "team": "9MS",
+            "score": 1114.0,
+            "lastAccept": 1763269859
+        },
+        {
+            "pos": 63,
+            "team": "n3x",
+            "score": 1108.0,
+            "lastAccept": 1763281310
+        },
+        {
+            "pos": 64,
+            "team": "NEUQRO",
+            "score": 1043.5,
+            "lastAccept": 1763343598
+        },
+        {
+            "pos": 65,
+            "team": "做着玩",
+            "score": 901.0,
+            "lastAccept": 1763281089
+        },
+        {
+            "pos": 66,
+            "team": "******",
+            "score": 863.0,
+            "lastAccept": 1763282065
+        },
+        {
+            "pos": 67,
+            "team": "r00t",
+            "score": 824.55,
+            "lastAccept": 1763314435
+        },
+        {
+            "pos": 68,
+            "team": "Tuxed0_C@t",
+            "score": 824.0,
+            "lastAccept": 1763274790
+        },
+        {
+            "pos": 69,
+            "team": "Air2top",
+            "score": 824.0,
+            "lastAccept": 1763280027
+        },
+        {
+            "pos": 70,
+            "team": "yclcg",
+            "score": 743.0,
+            "lastAccept": 1763279218
+        },
+        {
+            "pos": 71,
+            "team": "0RAYS",
+            "score": 715.0,
+            "lastAccept": 1763311230
+        },
+        {
+            "pos": 72,
+            "team": "0ops",
+            "score": 714.0,
+            "lastAccept": 1763228793
+        },
+        {
+            "pos": 73,
+            "team": "Maple-leaves",
+            "score": 705.0,
+            "lastAccept": 1763267784
+        },
+        {
+            "pos": 74,
+            "team": "Pith",
+            "score": 698.0,
+            "lastAccept": 1763269067
+        },
+        {
+            "pos": 75,
+            "team": "大鬼不动",
+            "score": 677.0,
+            "lastAccept": 1763309327
+        },
+        {
+            "pos": 76,
+            "team": "Go Go Squid!",
+            "score": 660.0,
+            "lastAccept": 1763180311
+        },
+        {
+            "pos": 77,
+            "team": "WWIIOO99",
+            "score": 651.0,
+            "lastAccept": 1763279069
+        },
+        {
+            "pos": 78,
+            "team": "Squid Proxy Lovers",
+            "score": 605.0,
+            "lastAccept": 1763334865
+        },
+        {
+            "pos": 79,
+            "team": "11:22",
+            "score": 596.0,
+            "lastAccept": 1763286850
+        },
+        {
+            "pos": 80,
+            "team": "梅花k-2",
+            "score": 589.0,
+            "lastAccept": 1763281514
+        },
+        {
+            "pos": 81,
+            "team": "DAOT",
+            "score": 589.0,
+            "lastAccept": 1763300914
+        },
+        {
+            "pos": 82,
+            "team": "0x401 Team",
+            "score": 574.0,
+            "lastAccept": 1763295687
+        },
+        {
+            "pos": 83,
+            "team": "楼上请让路*",
+            "score": 555.74,
+            "lastAccept": 1763319350
+        },
+        {
+            "pos": 84,
+            "team": "Kap0K",
+            "score": 551.0,
+            "lastAccept": 1763279013
+        },
+        {
+            "pos": 85,
+            "team": "The Flat Network Society",
+            "score": 551.0,
+            "lastAccept": 1763295922
+        },
+        {
+            "pos": 86,
+            "team": "NISA",
+            "score": 551.0,
+            "lastAccept": 1763312965
+        },
+        {
+            "pos": 87,
+            "team": "签完到就走",
+            "score": 525.0,
+            "lastAccept": 1763196660
+        },
+        {
+            "pos": 88,
+            "team": "shixz",
+            "score": 503.0,
+            "lastAccept": 1763280855
+        },
+        {
+            "pos": 89,
+            "team": "WFU network security",
+            "score": 493.0,
+            "lastAccept": 1763280871
+        },
+        {
+            "pos": 90,
+            "team": "1210",
+            "score": 448.0,
+            "lastAccept": 1763193387
+        },
+        {
+            "pos": 91,
+            "team": "Invite Me Pls, Looking For Team Mate",
+            "score": 448.0,
+            "lastAccept": 1763222461
+        },
+        {
+            "pos": 92,
+            "team": "Matriy",
+            "score": 448.0,
+            "lastAccept": 1763302538
+        },
+        {
+            "pos": 93,
+            "team": "充电器",
+            "score": 434.0,
+            "lastAccept": 1763211752
+        },
+        {
+            "pos": 94,
+            "team": "vio78t",
+            "score": 431.0,
+            "lastAccept": 1763280350
+        },
+        {
+            "pos": 95,
+            "team": "求老实",
+            "score": 431.0,
+            "lastAccept": 1763297283
+        },
+        {
+            "pos": 96,
+            "team": "玄天网安实验室",
+            "score": 393.0,
+            "lastAccept": 1763280678
+        },
+        {
+            "pos": 97,
+            "team": "Dawn",
+            "score": 393.0,
+            "lastAccept": 1763291920
+        },
+        {
+            "pos": 98,
+            "team": "XxingGoD",
+            "score": 393.0,
+            "lastAccept": 1763313528
+        },
+        {
+            "pos": 99,
+            "team": "ken",
+            "score": 377.0,
+            "lastAccept": 1763231664
+        },
+        {
+            "pos": 100,
+            "team": "Kyaradosoruto",
+            "score": 367.0,
+            "lastAccept": 1763177918
+        },
+        {
+            "pos": 101,
+            "team": "Hk328",
+            "score": 339.0,
+            "lastAccept": 1763281076
+        },
+        {
+            "pos": 102,
+            "team": "野?花?香",
+            "score": 339.0,
+            "lastAccept": 1763284346
+        },
+        {
+            "pos": 103,
+            "team": "1234321",
+            "score": 339.0,
+            "lastAccept": 1763293665
+        },
+        {
+            "pos": 104,
+            "team": "or4nge",
+            "score": 339.0,
+            "lastAccept": 1763294095
+        },
+        {
+            "pos": 105,
+            "team": "ByteMe",
+            "score": 339.0,
+            "lastAccept": 1763298939
+        },
+        {
+            "pos": 106,
+            "team": "NoFlagForMice",
+            "score": 339.0,
+            "lastAccept": 1763299199
+        },
+        {
+            "pos": 107,
+            "team": "Urako",
+            "score": 339.0,
+            "lastAccept": 1763319350
+        },
+        {
+            "pos": 108,
+            "team": "glzjinbot",
+            "score": 290.0,
+            "lastAccept": 1763257958
+        },
+        {
+            "pos": 109,
+            "team": "QF",
+            "score": 267.0,
+            "lastAccept": 1763176087
+        },
+        {
+            "pos": 110,
+            "team": "Ginkgo",
+            "score": 267.0,
+            "lastAccept": 1763201859
+        },
+        {
+            "pos": 111,
+            "team": "SKSD",
+            "score": 267.0,
+            "lastAccept": 1763202962
+        },
+        {
+            "pos": 112,
+            "team": "HatTrick",
+            "score": 267.0,
+            "lastAccept": 1763203715
+        },
+        {
+            "pos": 113,
+            "team": "Saul",
+            "score": 267.0,
+            "lastAccept": 1763271302
+        },
+        {
+            "pos": 114,
+            "team": "K&F",
+            "score": 213.0,
+            "lastAccept": 1763178354
+        },
+        {
+            "pos": 115,
+            "team": "Tide安全团队",
+            "score": 213.0,
+            "lastAccept": 1763178932
+        },
+        {
+            "pos": 116,
+            "team": "[华师-打星]M4TR2X",
+            "score": 213.0,
+            "lastAccept": 1763181927
+        },
+        {
+            "pos": 117,
+            "team": "sloth",
+            "score": 213.0,
+            "lastAccept": 1763182665
+        },
+        {
+            "pos": 118,
+            "team": "VSLNectar",
+            "score": 213.0,
+            "lastAccept": 1763185516
+        },
+        {
+            "pos": 119,
+            "team": "aria",
+            "score": 213.0,
+            "lastAccept": 1763187753
+        },
+        {
+            "pos": 120,
+            "team": "Sveta_Ira_Galya_Anya_Nastya",
+            "score": 213.0,
+            "lastAccept": 1763188586
+        },
+        {
+            "pos": 121,
+            "team": "stack_ovo",
+            "score": 213.0,
+            "lastAccept": 1763188805
+        },
+        {
+            "pos": 122,
+            "team": "EnchanterSec",
+            "score": 213.0,
+            "lastAccept": 1763190238
+        },
+        {
+            "pos": 123,
+            "team": "砂狼白子",
+            "score": 213.0,
+            "lastAccept": 1763190706
+        },
+        {
+            "pos": 124,
+            "team": "pornhub(1)",
+            "score": 213.0,
+            "lastAccept": 1763197492
+        },
+        {
+            "pos": 125,
+            "team": "CUMT_qwq",
+            "score": 213.0,
+            "lastAccept": 1763200236
+        },
+        {
+            "pos": 126,
+            "team": "EDISEC",
+            "score": 213.0,
+            "lastAccept": 1763202756
+        },
+        {
+            "pos": 127,
+            "team": "Flash Drive BD",
+            "score": 213.0,
+            "lastAccept": 1763207235
+        },
+        {
+            "pos": 128,
+            "team": "Chuuni club",
+            "score": 213.0,
+            "lastAccept": 1763218562
+        },
+        {
+            "pos": 129,
+            "team": "q0°0u",
+            "score": 213.0,
+            "lastAccept": 1763232235
+        },
+        {
+            "pos": 130,
+            "team": "trgl&friends",
+            "score": 213.0,
+            "lastAccept": 1763273304
+        },
+        {
+            "pos": 131,
+            "team": "SavedByTheShell",
+            "score": 213.0,
+            "lastAccept": 1763314565
+        },
+        {
+            "pos": 132,
+            "team": "IronW0lf",
+            "score": 212.0,
+            "lastAccept": 1763189825
+        },
+        {
+            "pos": 133,
+            "team": "Jasoso",
+            "score": 212.0,
+            "lastAccept": 1763196969
+        },
+        {
+            "pos": 134,
+            "team": "16j",
+            "score": 212.0,
+            "lastAccept": 1763209559
+        },
+        {
+            "pos": 135,
+            "team": "Vidar-Team",
+            "score": 182.65,
+            "lastAccept": 1763314435
+        },
+        {
+            "pos": 136,
+            "team": "Color",
+            "score": 181.0,
+            "lastAccept": 1763267179
+        },
+        {
+            "pos": 137,
+            "team": "JKL0x3e",
+            "score": 181.0,
+            "lastAccept": 1763269717
+        },
+        {
+            "pos": 138,
+            "team": "admin2",
+            "score": 181.0,
+            "lastAccept": 1763278826
+        },
+        {
+            "pos": 139,
+            "team": "基尼太美队",
+            "score": 181.0,
+            "lastAccept": 1763278849
+        },
+        {
+            "pos": 140,
+            "team": "wwwab",
+            "score": 181.0,
+            "lastAccept": 1763278973
+        },
+        {
+            "pos": 141,
+            "team": "点击输入文字",
+            "score": 181.0,
+            "lastAccept": 1763279140
+        },
+        {
+            "pos": 142,
+            "team": "08067Sec",
+            "score": 181.0,
+            "lastAccept": 1763279638
+        },
+        {
+            "pos": 143,
+            "team": "M1nus",
+            "score": 181.0,
+            "lastAccept": 1763280158
+        },
+        {
+            "pos": 144,
+            "team": "hanson",
+            "score": 181.0,
+            "lastAccept": 1763280501
+        },
+        {
+            "pos": 145,
+            "team": "qwety",
+            "score": 181.0,
+            "lastAccept": 1763280576
+        },
+        {
+            "pos": 146,
+            "team": "W4terDr0p",
+            "score": 181.0,
+            "lastAccept": 1763281094
+        },
+        {
+            "pos": 147,
+            "team": "Cattail_grass",
+            "score": 181.0,
+            "lastAccept": 1763281286
+        },
+        {
+            "pos": 148,
+            "team": "andreika47",
+            "score": 181.0,
+            "lastAccept": 1763281388
+        },
+        {
+            "pos": 149,
+            "team": "12312321",
+            "score": 181.0,
+            "lastAccept": 1763281876
+        },
+        {
+            "pos": 150,
+            "team": "BSn",
+            "score": 181.0,
+            "lastAccept": 1763282934
+        },
+        {
+            "pos": 151,
+            "team": "HTTP/1.1 404 NOT FOUND",
+            "score": 181.0,
+            "lastAccept": 1763283285
+        },
+        {
+            "pos": 152,
+            "team": "Del0n1x",
+            "score": 181.0,
+            "lastAccept": 1763283469
+        },
+        {
+            "pos": 153,
+            "team": "HHTC",
+            "score": 181.0,
+            "lastAccept": 1763284564
+        },
+        {
+            "pos": 154,
+            "team": "maicai",
+            "score": 181.0,
+            "lastAccept": 1763285467
+        },
+        {
+            "pos": 155,
+            "team": "0x68632f",
+            "score": 181.0,
+            "lastAccept": 1763285792
+        },
+        {
+            "pos": 156,
+            "team": "食草龙爱吃flag",
+            "score": 181.0,
+            "lastAccept": 1763286023
+        },
+        {
+            "pos": 157,
+            "team": "hackyou",
+            "score": 181.0,
+            "lastAccept": 1763288724
+        },
+        {
+            "pos": 158,
+            "team": "PEAce",
+            "score": 181.0,
+            "lastAccept": 1763289657
+        },
+        {
+            "pos": 159,
+            "team": "AK的春天",
+            "score": 181.0,
+            "lastAccept": 1763290298
+        },
+        {
+            "pos": 160,
+            "team": "A求对对收留",
+            "score": 181.0,
+            "lastAccept": 1763290371
+        },
+        {
+            "pos": 161,
+            "team": "G0d_RayK1d",
+            "score": 181.0,
+            "lastAccept": 1763292048
+        },
+        {
+            "pos": 162,
+            "team": "chongkai",
+            "score": 181.0,
+            "lastAccept": 1763293622
+        },
+        {
+            "pos": 163,
+            "team": "何今秋",
+            "score": 181.0,
+            "lastAccept": 1763296522
+        },
+        {
+            "pos": 164,
+            "team": "Spike",
+            "score": 181.0,
+            "lastAccept": 1763298120
+        },
+        {
+            "pos": 165,
+            "team": "俺不会",
+            "score": 181.0,
+            "lastAccept": 1763300915
+        },
+        {
+            "pos": 166,
+            "team": "Zyc",
+            "score": 181.0,
+            "lastAccept": 1763301085
+        },
+        {
+            "pos": 167,
+            "team": "0613",
+            "score": 181.0,
+            "lastAccept": 1763303111
+        },
+        {
+            "pos": 168,
+            "team": "ZeroDay Team",
+            "score": 181.0,
+            "lastAccept": 1763304583
+        },
+        {
+            "pos": 169,
+            "team": "0cu1ux",
+            "score": 181.0,
+            "lastAccept": 1763304676
+        },
+        {
+            "pos": 170,
+            "team": "Flag都去哪儿了",
+            "score": 181.0,
+            "lastAccept": 1763305706
+        },
+        {
+            "pos": 171,
+            "team": "GWWAFZ",
+            "score": 181.0,
+            "lastAccept": 1763306311
+        },
+        {
+            "pos": 172,
+            "team": "山海经",
+            "score": 181.0,
+            "lastAccept": 1763309694
+        },
+        {
+            "pos": 173,
+            "team": "ri7s",
+            "score": 181.0,
+            "lastAccept": 1763313447
+        },
+        {
+            "pos": 174,
+            "team": "signin_player",
+            "score": 158.0,
+            "lastAccept": 1763199421
+        },
+        {
+            "pos": 175,
+            "team": "初音の大葱",
+            "score": 158.0,
+            "lastAccept": 1763274574
+        },
+        {
+            "pos": 176,
+            "team": "twd_z",
+            "score": 158.0,
+            "lastAccept": 1763285407
+        },
+        {
+            "pos": 177,
+            "team": "jocker",
+            "score": 126.0,
+            "lastAccept": 1763267381
+        },
+        {
+            "pos": 178,
+            "team": "1!",
+            "score": 126.0,
+            "lastAccept": 1763279569
+        },
+        {
+            "pos": 179,
+            "team": "一行代码就能赢",
+            "score": 126.0,
+            "lastAccept": 1763285617
+        },
+        {
+            "pos": 180,
+            "team": "(^-^)",
+            "score": 126.0,
+            "lastAccept": 1763286744
+        },
+        {
+            "pos": 181,
+            "team": "yuyuhandetuantui",
+            "score": 126.0,
+            "lastAccept": 1763290064
+        },
+        {
+            "pos": 182,
+            "team": "随便娶一个",
+            "score": 126.0,
+            "lastAccept": 1763292282
+        },
+        {
+            "pos": 183,
+            "team": "哈基米南北绿豆",
+            "score": 126.0,
+            "lastAccept": 1763297841
+        },
+        {
+            "pos": 184,
+            "team": "burning",
+            "score": 126.0,
+            "lastAccept": 1763298310
+        },
+        {
+            "pos": 185,
+            "team": "鶸",
+            "score": 126.0,
+            "lastAccept": 1763308446
+        },
+        {
+            "pos": 186,
+            "team": "zzz_111",
+            "score": 126.0,
+            "lastAccept": 1763310492
+        },
+        {
+            "pos": 187,
+            "team": "flag与她皆失",
+            "score": 55.0,
+            "lastAccept": 1763172167
+        },
+        {
+            "pos": 188,
+            "team": "少羽超牛福",
+            "score": 55.0,
+            "lastAccept": 1763172259
+        },
+        {
+            "pos": 189,
+            "team": "烎",
+            "score": 55.0,
+            "lastAccept": 1763172281
+        },
+        {
+            "pos": 190,
+            "team": "bxs00n",
+            "score": 55.0,
+            "lastAccept": 1763172336
+        },
+        {
+            "pos": 191,
+            "team": "warrior_man",
+            "score": 55.0,
+            "lastAccept": 1763172348
+        },
+        {
+            "pos": 192,
+            "team": "千山暗雨",
+            "score": 55.0,
+            "lastAccept": 1763172354
+        },
+        {
+            "pos": 193,
+            "team": "bup11f",
+            "score": 55.0,
+            "lastAccept": 1763172427
+        },
+        {
+            "pos": 194,
+            "team": "M&y",
+            "score": 55.0,
+            "lastAccept": 1763172450
+        },
+        {
+            "pos": 195,
+            "team": "创可贴贴",
+            "score": 55.0,
+            "lastAccept": 1763172459
+        },
+        {
+            "pos": 196,
+            "team": "昵称被占用不知道取什么名字了",
+            "score": 55.0,
+            "lastAccept": 1763172770
+        },
+        {
+            "pos": 197,
+            "team": "mqDhy",
+            "score": 55.0,
+            "lastAccept": 1763172775
+        },
+        {
+            "pos": 198,
+            "team": "我就想签个到看看题",
+            "score": 55.0,
+            "lastAccept": 1763172819
+        },
+        {
+            "pos": 199,
+            "team": "NI",
+            "score": 55.0,
+            "lastAccept": 1763172870
+        },
+        {
+            "pos": 200,
+            "team": "The Unchosen Course",
+            "score": 55.0,
+            "lastAccept": 1763172873
+        },
+        {
+            "pos": 201,
+            "team": "sky111",
+            "score": 55.0,
+            "lastAccept": 1763172960
+        },
+        {
+            "pos": 202,
+            "team": "MXGA",
+            "score": 55.0,
+            "lastAccept": 1763172985
+        },
+        {
+            "pos": 203,
+            "team": "flag{I_l0VE_Y0u}",
+            "score": 55.0,
+            "lastAccept": 1763172986
+        },
+        {
+            "pos": 204,
+            "team": "K3epSmil3",
+            "score": 55.0,
+            "lastAccept": 1763173007
+        },
+        {
+            "pos": 205,
+            "team": "go瓦派州",
+            "score": 55.0,
+            "lastAccept": 1763173021
+        },
+        {
+            "pos": 206,
+            "team": "Timeline Sec",
+            "score": 55.0,
+            "lastAccept": 1763173084
+        },
+        {
+            "pos": 207,
+            "team": "ZLZC",
+            "score": 55.0,
+            "lastAccept": 1763173149
+        },
+        {
+            "pos": 208,
+            "team": "dddddddddd",
+            "score": 55.0,
+            "lastAccept": 1763173230
+        },
+        {
+            "pos": 209,
+            "team": "断箭",
+            "score": 55.0,
+            "lastAccept": 1763173271
+        },
+        {
+            "pos": 210,
+            "team": "bxsteam1",
+            "score": 55.0,
+            "lastAccept": 1763173294
+        },
+        {
+            "pos": 211,
+            "team": "ByteFugue",
+            "score": 55.0,
+            "lastAccept": 1763173329
+        },
+        {
+            "pos": 212,
+            "team": "脚底儿",
+            "score": 55.0,
+            "lastAccept": 1763173352
+        },
+        {
+            "pos": 213,
+            "team": "wutioa",
+            "score": 55.0,
+            "lastAccept": 1763173481
+        },
+        {
+            "pos": 214,
+            "team": "圣地亚哥皮蛋",
+            "score": 55.0,
+            "lastAccept": 1763173524
+        },
+        {
+            "pos": 215,
+            "team": "Git",
+            "score": 55.0,
+            "lastAccept": 1763173538
+        },
+        {
+            "pos": 216,
+            "team": "等风吹来",
+            "score": 55.0,
+            "lastAccept": 1763173552
+        },
+        {
+            "pos": 217,
+            "team": "int_3",
+            "score": 55.0,
+            "lastAccept": 1763173710
+        },
+        {
+            "pos": 218,
+            "team": "卓越工程师",
+            "score": 55.0,
+            "lastAccept": 1763173753
+        },
+        {
+            "pos": 219,
+            "team": "ZZH-ZZH",
+            "score": 55.0,
+            "lastAccept": 1763173768
+        },
+        {
+            "pos": 220,
+            "team": "seclzi",
+            "score": 55.0,
+            "lastAccept": 1763174109
+        },
+        {
+            "pos": 221,
+            "team": "muelsyse",
+            "score": 55.0,
+            "lastAccept": 1763174337
+        },
+        {
+            "pos": 222,
+            "team": "bin2own",
+            "score": 55.0,
+            "lastAccept": 1763174682
+        },
+        {
+            "pos": 223,
+            "team": "N0",
+            "score": 55.0,
+            "lastAccept": 1763174899
+        },
+        {
+            "pos": 224,
+            "team": "qaqqwq",
+            "score": 55.0,
+            "lastAccept": 1763175140
+        },
+        {
+            "pos": 225,
+            "team": "H4x0r1z",
+            "score": 55.0,
+            "lastAccept": 1763175213
+        },
+        {
+            "pos": 226,
+            "team": "D0sec",
+            "score": 55.0,
+            "lastAccept": 1763175228
+        },
+        {
+            "pos": 227,
+            "team": "psyloft",
+            "score": 55.0,
+            "lastAccept": 1763175607
+        },
+        {
+            "pos": 228,
+            "team": "flyfly",
+            "score": 55.0,
+            "lastAccept": 1763175846
+        },
+        {
+            "pos": 229,
+            "team": "xyzqaz",
+            "score": 55.0,
+            "lastAccept": 1763175994
+        },
+        {
+            "pos": 230,
+            "team": "cat1111",
+            "score": 55.0,
+            "lastAccept": 1763176212
+        },
+        {
+            "pos": 231,
+            "team": "babyD0g3",
+            "score": 55.0,
+            "lastAccept": 1763176617
+        },
+        {
+            "pos": 232,
+            "team": "LakeAHa",
+            "score": 55.0,
+            "lastAccept": 1763177110
+        },
+        {
+            "pos": 233,
+            "team": "DWY_YK",
+            "score": 55.0,
+            "lastAccept": 1763177439
+        },
+        {
+            "pos": 234,
+            "team": "重在参与123",
+            "score": 55.0,
+            "lastAccept": 1763177889
+        },
+        {
+            "pos": 235,
+            "team": "chihui",
+            "score": 55.0,
+            "lastAccept": 1763178179
+        },
+        {
+            "pos": 236,
+            "team": "nbc",
+            "score": 55.0,
+            "lastAccept": 1763178337
+        },
+        {
+            "pos": 237,
+            "team": "-_-",
+            "score": 55.0,
+            "lastAccept": 1763178343
+        },
+        {
+            "pos": 238,
+            "team": "南梁隋朝不如我朝",
+            "score": 55.0,
+            "lastAccept": 1763178803
+        },
+        {
+            "pos": 239,
+            "team": "NOK",
+            "score": 55.0,
+            "lastAccept": 1763178855
+        },
+        {
+            "pos": 240,
+            "team": "Randomplay",
+            "score": 55.0,
+            "lastAccept": 1763178996
+        },
+        {
+            "pos": 241,
+            "team": "别耽误我打瓦",
+            "score": 55.0,
+            "lastAccept": 1763179072
+        },
+        {
+            "pos": 242,
+            "team": "DAWN?DAMN!",
+            "score": 55.0,
+            "lastAccept": 1763179100
+        },
+        {
+            "pos": 243,
+            "team": "test01",
+            "score": 55.0,
+            "lastAccept": 1763179338
+        },
+        {
+            "pos": 244,
+            "team": "ZeroT7x",
+            "score": 55.0,
+            "lastAccept": 1763179410
+        },
+        {
+            "pos": 245,
+            "team": "HexT0B1n",
+            "score": 55.0,
+            "lastAccept": 1763179645
+        },
+        {
+            "pos": 246,
+            "team": "T3AM KNU11",
+            "score": 55.0,
+            "lastAccept": 1763180004
+        },
+        {
+            "pos": 247,
+            "team": "Z-Sec",
+            "score": 55.0,
+            "lastAccept": 1763180108
+        },
+        {
+            "pos": 248,
+            "team": "NIAM",
+            "score": 55.0,
+            "lastAccept": 1763180225
+        },
+        {
+            "pos": 249,
+            "team": "abcl实验室",
+            "score": 55.0,
+            "lastAccept": 1763180446
+        },
+        {
+            "pos": 250,
+            "team": "W1Ner",
+            "score": 55.0,
+            "lastAccept": 1763180652
+        },
+        {
+            "pos": 251,
+            "team": "hhhhhhhhhh",
+            "score": 55.0,
+            "lastAccept": 1763181420
+        },
+        {
+            "pos": 252,
+            "team": "Sword of Coming",
+            "score": 55.0,
+            "lastAccept": 1763181444
+        },
+        {
+            "pos": 253,
+            "team": "deepsleep",
+            "score": 55.0,
+            "lastAccept": 1763181540
+        },
+        {
+            "pos": 254,
+            "team": "Mako",
+            "score": 55.0,
+            "lastAccept": 1763181635
+        },
+        {
+            "pos": 255,
+            "team": "转风小队",
+            "score": 55.0,
+            "lastAccept": 1763181833
+        },
+        {
+            "pos": 256,
+            "team": "zdf",
+            "score": 55.0,
+            "lastAccept": 1763181917
+        },
+        {
+            "pos": 257,
+            "team": "嘿嘿嘿",
+            "score": 55.0,
+            "lastAccept": 1763182059
+        },
+        {
+            "pos": 258,
+            "team": "侥幸哥不再侥幸",
+            "score": 55.0,
+            "lastAccept": 1763182366
+        },
+        {
+            "pos": 259,
+            "team": "ctct",
+            "score": 55.0,
+            "lastAccept": 1763182937
+        },
+        {
+            "pos": 260,
+            "team": "ZXM",
+            "score": 55.0,
+            "lastAccept": 1763182944
+        },
+        {
+            "pos": 261,
+            "team": "fuyun",
+            "score": 55.0,
+            "lastAccept": 1763183131
+        },
+        {
+            "pos": 262,
+            "team": "WELLCUM",
+            "score": 55.0,
+            "lastAccept": 1763183356
+        },
+        {
+            "pos": 263,
+            "team": "`",
+            "score": 55.0,
+            "lastAccept": 1763183827
+        },
+        {
+            "pos": 264,
+            "team": "xTeA",
+            "score": 55.0,
+            "lastAccept": 1763184567
+        },
+        {
+            "pos": 265,
+            "team": "GG GLHF",
+            "score": 55.0,
+            "lastAccept": 1763185758
+        },
+        {
+            "pos": 266,
+            "team": "HmsansN",
+            "score": 55.0,
+            "lastAccept": 1763186205
+        },
+        {
+            "pos": 267,
+            "team": "NCEPU-NSA",
+            "score": 55.0,
+            "lastAccept": 1763186789
+        },
+        {
+            "pos": 268,
+            "team": "ppppp",
+            "score": 55.0,
+            "lastAccept": 1763186853
+        },
+        {
+            "pos": 269,
+            "team": "H4ckB1t",
+            "score": 55.0,
+            "lastAccept": 1763187112
+        },
+        {
+            "pos": 270,
+            "team": "0x0D000721",
+            "score": 55.0,
+            "lastAccept": 1763187121
+        },
+        {
+            "pos": 271,
+            "team": "NULL_ER",
+            "score": 55.0,
+            "lastAccept": 1763188998
+        },
+        {
+            "pos": 272,
+            "team": "wjg红色键盘",
+            "score": 55.0,
+            "lastAccept": 1763189007
+        },
+        {
+            "pos": 273,
+            "team": "L&J",
+            "score": 55.0,
+            "lastAccept": 1763189593
+        },
+        {
+            "pos": 274,
+            "team": "DEFCON1",
+            "score": 55.0,
+            "lastAccept": 1763189728
+        },
+        {
+            "pos": 275,
+            "team": "SpaceSec",
+            "score": 55.0,
+            "lastAccept": 1763189749
+        },
+        {
+            "pos": 276,
+            "team": "FlappyBird",
+            "score": 55.0,
+            "lastAccept": 1763189845
+        },
+        {
+            "pos": 277,
+            "team": "Cat Training Force",
+            "score": 55.0,
+            "lastAccept": 1763190037
+        },
+        {
+            "pos": 278,
+            "team": "Free-1l",
+            "score": 55.0,
+            "lastAccept": 1763190806
+        },
+        {
+            "pos": 279,
+            "team": "哟，flag",
+            "score": 55.0,
+            "lastAccept": 1763190969
+        },
+        {
+            "pos": 280,
+            "team": "IgelsCTF",
+            "score": 55.0,
+            "lastAccept": 1763191289
+        },
+        {
+            "pos": 281,
+            "team": "EatMybutt",
+            "score": 55.0,
+            "lastAccept": 1763191510
+        },
+        {
+            "pos": 282,
+            "team": "星辉矩阵",
+            "score": 55.0,
+            "lastAccept": 1763191831
+        },
+        {
+            "pos": 283,
+            "team": "米奇妙妙",
+            "score": 55.0,
+            "lastAccept": 1763192448
+        },
+        {
+            "pos": 284,
+            "team": "不管了",
+            "score": 55.0,
+            "lastAccept": 1763193463
+        },
+        {
+            "pos": 285,
+            "team": "BinX",
+            "score": 55.0,
+            "lastAccept": 1763193514
+        },
+        {
+            "pos": 286,
+            "team": "L0o0L",
+            "score": 55.0,
+            "lastAccept": 1763193658
+        },
+        {
+            "pos": 287,
+            "team": "组一辈子战队",
+            "score": 55.0,
+            "lastAccept": 1763193838
+        },
+        {
+            "pos": 288,
+            "team": "Cyb0x1",
+            "score": 55.0,
+            "lastAccept": 1763194415
+        },
+        {
+            "pos": 289,
+            "team": "ctftest39",
+            "score": 55.0,
+            "lastAccept": 1763194858
+        },
+        {
+            "pos": 290,
+            "team": "CAIFLY",
+            "score": 55.0,
+            "lastAccept": 1763195316
+        },
+        {
+            "pos": 291,
+            "team": "李七庄驾校",
+            "score": 55.0,
+            "lastAccept": 1763196325
+        },
+        {
+            "pos": 292,
+            "team": "thirstyyy",
+            "score": 55.0,
+            "lastAccept": 1763196452
+        },
+        {
+            "pos": 293,
+            "team": "112WY",
+            "score": 55.0,
+            "lastAccept": 1763196761
+        },
+        {
+            "pos": 294,
+            "team": "rexin",
+            "score": 55.0,
+            "lastAccept": 1763196930
+        },
+        {
+            "pos": 295,
+            "team": "bababa",
+            "score": 55.0,
+            "lastAccept": 1763197362
+        },
+        {
+            "pos": 296,
+            "team": "0x56a",
+            "score": 55.0,
+            "lastAccept": 1763198313
+        },
+        {
+            "pos": 297,
+            "team": "O3SET",
+            "score": 55.0,
+            "lastAccept": 1763199172
+        },
+        {
+            "pos": 298,
+            "team": "橙色少年",
+            "score": 55.0,
+            "lastAccept": 1763200528
+        },
+        {
+            "pos": 299,
+            "team": "Dozer",
+            "score": 55.0,
+            "lastAccept": 1763200597
+        },
+        {
+            "pos": 300,
+            "team": "玄网安全",
+            "score": 55.0,
+            "lastAccept": 1763201018
+        },
+        {
+            "pos": 301,
+            "team": "不知道叫什么队",
+            "score": 55.0,
+            "lastAccept": 1763201239
+        },
+        {
+            "pos": 302,
+            "team": "Pirates of the Dead Flag",
+            "score": 55.0,
+            "lastAccept": 1763201444
+        },
+        {
+            "pos": 303,
+            "team": "观光",
+            "score": 55.0,
+            "lastAccept": 1763201598
+        },
+        {
+            "pos": 304,
+            "team": "ForLyxx",
+            "score": 55.0,
+            "lastAccept": 1763201883
+        },
+        {
+            "pos": 305,
+            "team": "NDBL",
+            "score": 55.0,
+            "lastAccept": 1763205170
+        },
+        {
+            "pos": 306,
+            "team": "4rr0wh3ad",
+            "score": 55.0,
+            "lastAccept": 1763205337
+        },
+        {
+            "pos": 307,
+            "team": "xxxbxxx",
+            "score": 55.0,
+            "lastAccept": 1763205439
+        },
+        {
+            "pos": 308,
+            "team": "H4110w34n",
+            "score": 55.0,
+            "lastAccept": 1763205615
+        },
+        {
+            "pos": 309,
+            "team": "fwef",
+            "score": 55.0,
+            "lastAccept": 1763207036
+        },
+        {
+            "pos": 310,
+            "team": "1121331",
+            "score": 55.0,
+            "lastAccept": 1763208525
+        },
+        {
+            "pos": 311,
+            "team": "X-W",
+            "score": 55.0,
+            "lastAccept": 1763209449
+        },
+        {
+            "pos": 312,
+            "team": "H3lL",
+            "score": 55.0,
+            "lastAccept": 1763209903
+        },
+        {
+            "pos": 313,
+            "team": "T3am",
+            "score": 55.0,
+            "lastAccept": 1763210249
+        },
+        {
+            "pos": 314,
+            "team": "超能鹿战队",
+            "score": 55.0,
+            "lastAccept": 1763210419
+        },
+        {
+            "pos": 315,
+            "team": "SAINTSEC",
+            "score": 55.0,
+            "lastAccept": 1763210732
+        },
+        {
+            "pos": 316,
+            "team": "长信",
+            "score": 55.0,
+            "lastAccept": 1763211055
+        },
+        {
+            "pos": 317,
+            "team": "Crop",
+            "score": 55.0,
+            "lastAccept": 1763211290
+        },
+        {
+            "pos": 318,
+            "team": "healer666",
+            "score": 55.0,
+            "lastAccept": 1763211952
+        },
+        {
+            "pos": 319,
+            "team": "Zer1",
+            "score": 55.0,
+            "lastAccept": 1763212052
+        },
+        {
+            "pos": 320,
+            "team": "人靠烧酒车靠油",
+            "score": 55.0,
+            "lastAccept": 1763212524
+        },
+        {
+            "pos": 321,
+            "team": "小熊全都队",
+            "score": 55.0,
+            "lastAccept": 1763213675
+        },
+        {
+            "pos": 322,
+            "team": "java",
+            "score": 55.0,
+            "lastAccept": 1763214259
+        },
+        {
+            "pos": 323,
+            "team": "Qing1",
+            "score": 55.0,
+            "lastAccept": 1763214629
+        },
+        {
+            "pos": 324,
+            "team": "capBack",
+            "score": 55.0,
+            "lastAccept": 1763215287
+        },
+        {
+            "pos": 325,
+            "team": "鲁克need福来阁",
+            "score": 55.0,
+            "lastAccept": 1763215537
+        },
+        {
+            "pos": 326,
+            "team": "hackratic",
+            "score": 55.0,
+            "lastAccept": 1763219184
+        },
+        {
+            "pos": 327,
+            "team": "tzam",
+            "score": 55.0,
+            "lastAccept": 1763219285
+        },
+        {
+            "pos": 328,
+            "team": "0xDawn",
+            "score": 55.0,
+            "lastAccept": 1763220292
+        },
+        {
+            "pos": 329,
+            "team": "lamppe",
+            "score": 55.0,
+            "lastAccept": 1763221288
+        },
+        {
+            "pos": 330,
+            "team": "Tung Ling Tea",
+            "score": 55.0,
+            "lastAccept": 1763221594
+        },
+        {
+            "pos": 331,
+            "team": "啊对对，哦，不对不队",
+            "score": 55.0,
+            "lastAccept": 1763222032
+        },
+        {
+            "pos": 332,
+            "team": "C0TFer",
+            "score": 55.0,
+            "lastAccept": 1763222792
+        },
+        {
+            "pos": 333,
+            "team": "flag{}___Orz",
+            "score": 55.0,
+            "lastAccept": 1763226244
+        },
+        {
+            "pos": 334,
+            "team": "swvl",
+            "score": 55.0,
+            "lastAccept": 1763227374
+        },
+        {
+            "pos": 335,
+            "team": "Kheshig",
+            "score": 55.0,
+            "lastAccept": 1763229624
+        },
+        {
+            "pos": 336,
+            "team": "大雪深埋",
+            "score": 55.0,
+            "lastAccept": 1763230330
+        },
+        {
+            "pos": 337,
+            "team": "EzFlag",
+            "score": 55.0,
+            "lastAccept": 1763233746
+        },
+        {
+            "pos": 338,
+            "team": "F3N9 SHU1",
+            "score": 55.0,
+            "lastAccept": 1763237899
+        },
+        {
+            "pos": 339,
+            "team": "K?I?N?G?",
+            "score": 55.0,
+            "lastAccept": 1763242363
+        },
+        {
+            "pos": 340,
+            "team": "aaawyh",
+            "score": 55.0,
+            "lastAccept": 1763257864
+        },
+        {
+            "pos": 341,
+            "team": "pentest",
+            "score": 55.0,
+            "lastAccept": 1763260886
+        },
+        {
+            "pos": 342,
+            "team": "补药爆0",
+            "score": 55.0,
+            "lastAccept": 1763262253
+        },
+        {
+            "pos": 343,
+            "team": "springbot",
+            "score": 55.0,
+            "lastAccept": 1763267838
+        },
+        {
+            "pos": 344,
+            "team": "长城",
+            "score": 55.0,
+            "lastAccept": 1763269831
+        },
+        {
+            "pos": 345,
+            "team": "Rain7",
+            "score": 55.0,
+            "lastAccept": 1763276499
+        },
+        {
+            "pos": 346,
+            "team": "TeamGipsy",
+            "score": 55.0,
+            "lastAccept": 1763277034
+        },
+        {
+            "pos": 347,
+            "team": "签到123456",
+            "score": 55.0,
+            "lastAccept": 1763277242
+        },
+        {
+            "pos": 348,
+            "team": "L1bra",
+            "score": 55.0,
+            "lastAccept": 1763278331
+        },
+        {
+            "pos": 349,
+            "team": "有点可爱捏",
+            "score": 55.0,
+            "lastAccept": 1763280557
+        },
+        {
+            "pos": 350,
+            "team": "纸飞机",
+            "score": 55.0,
+            "lastAccept": 1763282949
+        },
+        {
+            "pos": 351,
+            "team": "b3f0re",
+            "score": 55.0,
+            "lastAccept": 1763283463
+        },
+        {
+            "pos": 352,
+            "team": "ZKSEC",
+            "score": 55.0,
+            "lastAccept": 1763286846
+        },
+        {
+            "pos": 353,
+            "team": "NSS",
+            "score": 55.0,
+            "lastAccept": 1763288769
+        },
+        {
+            "pos": 354,
+            "team": "NUC-NBA",
+            "score": 55.0,
+            "lastAccept": 1763289885
+        },
+        {
+            "pos": 355,
+            "team": "CXCDB",
+            "score": 55.0,
+            "lastAccept": 1763293917
+        },
+        {
+            "pos": 356,
+            "team": "Master-ciallo",
+            "score": 55.0,
+            "lastAccept": 1763294416
+        },
+        {
+            "pos": 357,
+            "team": "QCHnb",
+            "score": 55.0,
+            "lastAccept": 1763294986
+        },
+        {
+            "pos": 358,
+            "team": "wat",
+            "score": 55.0,
+            "lastAccept": 1763295547
+        },
+        {
+            "pos": 359,
+            "team": "nbzxpioneer",
+            "score": 55.0,
+            "lastAccept": 1763296754
+        },
+        {
+            "pos": 360,
+            "team": "404CAT",
+            "score": 55.0,
+            "lastAccept": 1763299016
+        },
+        {
+            "pos": 361,
+            "team": "玫家大院",
+            "score": 55.0,
+            "lastAccept": 1763299367
+        },
+        {
+            "pos": 362,
+            "team": "Dulll",
+            "score": 55.0,
+            "lastAccept": 1763299710
+        },
+        {
+            "pos": 363,
+            "team": "SeeU-Sec",
+            "score": 55.0,
+            "lastAccept": 1763314435
+        },
+        {
+            "pos": 364,
+            "team": "gesrgdfgd",
+            "score": 55.0,
+            "lastAccept": 1763343149
+        },
+        {
+            "pos": 365,
+            "team": "不对不队",
+            "score": 55.0,
+            "lastAccept": 1763343577
+        }
+    ]
+}

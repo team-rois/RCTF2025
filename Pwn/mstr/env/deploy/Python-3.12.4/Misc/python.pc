@@ -1,0 +1,13 @@
+# See: man pkg-config
+prefix=/home/nipe/ctf-pwn/deploy/Python-3.12.4/build
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Python
+Description: Build a C extension for Python
+Requires:
+Version: 3.12
+Libs.private: -ldl 
+Libs: -L${libdir} 
+Cflags: -I${includedir}/python3.12

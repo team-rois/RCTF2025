@@ -1,0 +1,23 @@
+# Generated environments / dependencies
+**/node_modules/
+**/vendor/
+**/.venv/
+**/.tmp/
+**/env/node_modules/
+**/env/vendor/
+**/env/.venv/
+**/env/.tmp/
+**/env/tmp/
+**/env/.cache/
+
+# Build outputs
+**/dist/
+**/build/
+**/.cache/
+
+# Editor & OS noise
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo

@@ -1,0 +1,20 @@
+version: '3'
+services:
+  hyperfun:
+    container_name: hyperfun
+    image: hyperfun
+    build:
+      context: .
+    ports:
+      - 9501:9501
+    environment:
+      - APP_ENV=dev
+      - SCAN_CACHEABLE=false
+    networks:
+      - private
+
+networks:
+  private:
+    driver: bridge
+    driver_opts:
+      com.docker.network.bridge.enable_ip_masquerade: 'false'

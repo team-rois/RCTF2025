@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+  koishi:
+    container_name: bot
+    restart: unless-stopped
+    build: .
+    environment:
+      - TZ=Asia/Shanghai
+#    networks:
+#      - private
+    ports:
+      - "5140:5140"
+    labels:
+      - "5140:5140"
+# 不出网！
+networks:
+  private:
+    driver: bridge
+    driver_opts:
+      com.docker.network.bridge.enable_ip_masquerade: 'false'

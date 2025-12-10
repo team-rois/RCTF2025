@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rois.happy_shopping.mapper.CouponMapper">
+
+    <resultMap id="BaseResultMap" type="com.rois.happy_shopping.entity.Coupon">
+        <id column="id" property="id" jdbcType="VARCHAR"/>
+        <result column="user_id" property="userId" jdbcType="VARCHAR"/>
+        <result column="name" property="name" jdbcType="VARCHAR"/>
+        <result column="discount_amount" property="discountAmount" jdbcType="DECIMAL"/>
+        <result column="is_used" property="isUsed" jdbcType="BOOLEAN"/>
+        <result column="expire_time" property="expireTime" jdbcType="TIMESTAMP"/>
+        <result column="create_time" property="createTime" jdbcType="TIMESTAMP"/>
+        <result column="update_time" property="updateTime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id, user_id, name, discount_amount, is_used, expire_time, create_time, update_time
+    </sql>
+
+    <insert id="insert" parameterType="com.rois.happy_shopping.entity.Coupon">
+        insert into coupons (id, user_id, name, discount_amount, is_used, expire_time, create_time, update_time)
+        values (#{id}, #{userId}, #{name}, #{discountAmount}, #{isUsed}, #{expireTime}, #{createTime}, #{updateTime})
+    </insert>
+
+    <select id="findById" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from coupons
+        where id = #{id}
+    </select>
+
+    <select id="findAvailableByUserId" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from coupons
+        where user_id = #{userId}
+        and is_used = false
+        and expire_time > now()
+        order by create_time desc
+    </select>
+
+    <update id="updateUsedStatus">
+        update coupons
+        set is_used = #{isUsed}, update_time = now()
+        where id = #{id}
+    </update>
+
+    <select id="findByUserId" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from coupons
+        where user_id = #{userId}
+        order by create_time desc
+    </select>
+
+</mapper>

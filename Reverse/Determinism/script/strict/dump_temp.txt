@@ -1,0 +1,48 @@
+((flag[0] << 1) + LShR(flag[4], 1) ^ flag[14]) & 255==208
+(flag[14] ^ flag[2]) & 255==84
+(flag[0]*(flag[7] + 3) ^ flag[16]*2) & 255==145
+(flag[1] ^ flag[2]) + flag[16]*2 & 255==13
+(flag[11]*3 ^ flag[1] + flag[16]) + 17 & 255==241
+(flag[10]*(flag[15] + 3) ^ flag[11]*2) & 255==100
+(flag[8] ^ flag[1]) & 255==3
+hash2(flag[0],flag[13]) == 58957
+hash2(flag[11],flag[2]) = 55732
+(flag[4]*(flag[7] + 3) ^ flag[16]*2) & 255==37
+(flag[4] ^ flag[10]) + flag[5]*2 & 255==247
+(flag[9]*3 ^ flag[6] + flag[2]) + 17 & 255==113
+(flag[3]*(flag[8] + 3) ^ flag[5]*2) & 255==180
+((flag[12] << 1) + LShR(flag[9], 1) ^ flag[6]) & 255==217
+((flag[5] << 1) + LShR(flag[2], 1) ^ flag[15]) & 255==170
+(flag[14]*(flag[7] + 3) ^ flag[5]*2) & 255==211
+(flag[2]*(flag[4] + 3) ^ flag[11]*2) & 255==18
+(flag[15] ^ flag[3]) + flag[4]*2 & 255==224
+((flag[14] << 1) + LShR(flag[4], 1) ^ flag[0]) & 255==186
+(flag[0] ^ flag[7]) & 255==115
+(flag[16] ^ flag[7]) + flag[2]*2 & 255==182
+(flag[11]*(flag[14] + 3) ^ flag[12]*2) & 255==38
+((flag[12] << 1) + LShR(flag[16], 1) ^ flag[7]) & 255==168
+hash2(flag[10],flag[13]) ==5086
+(flag[2]*(flag[3] + 3) ^ flag[14]*2) & 255==245
+(flag[16] ^ flag[14]) & 255==1
+(flag[4] ^ flag[11]) + flag[2]*2 & 255==153
+(flag[13] ^ flag[9]) + flag[10]*2 & 255==232
+(flag[1]*(flag[7] + 3) ^ flag[14]*2) & 255==214
+((flag[13] << 1) + LShR(flag[5], 1) ^ flag[7]) & 255==193
+(flag[1] ^ flag[11]) & 255==28
+((flag[1] << 1) + LShR(flag[4], 1) ^ flag[11]) & 255==127
+(flag[8]*(flag[12] + 3) ^ flag[7]*2) & 255==122
+((flag[9] << 1) + LShR(flag[15], 1) ^ flag[7]) & 255==213
+(flag[6] + flag[11] + flag[15] ^ flag[11]*3) & 255==58
+(flag[10]*3 ^ flag[0] + flag[12]) + 17 & 255==59
+hash2(flag[6],flag[15]) == 34907
+(flag[8] ^ flag[11]) & 255==31
+((flag[5] << 1) + LShR(flag[13], 1) ^ flag[15]) & 255==181
+(flag[6] + flag[7] + flag[11] ^ flag[7]*3) & 255==116
+((flag[0] << 1) + LShR(flag[3], 1) ^ flag[10]) & 255==200
+hash2(flag[0],flag[11]) == 18064
+((flag[3] << 1) + LShR(flag[0], 1) ^ flag[15]) & 255==183
+(flag[3]*3 ^ flag[15] + flag[13]) + 17 & 255==250
+((flag[10] << 1) + LShR(flag[11], 1) ^ flag[5]) & 255==122
+(flag[2]*3 ^ flag[7] + flag[10]) + 17 & 255==72
+(flag[14] + flag[8] + flag[7] ^ flag[8]*3) & 255==105
+hash2(flag[0],flag[2])==50141

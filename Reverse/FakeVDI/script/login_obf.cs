@@ -1,0 +1,682 @@
+using System;
+using System.Reactive;
+using System.Reactive.Concurrency;
+using System.Runtime.CompilerServices;
+using System.Security.Cryptography;
+using System.Text;
+using System.Windows.Input;
+using ReactiveUI;
+
+namespace FakeClient.ViewModels
+{
+	// Token: 0x0200001D RID: 29
+	[NullableContext(1)]
+	[Nullable(0)]
+	public class LoginViewModel : ViewModelBase
+	{
+		// Token: 0x17000001 RID: 1
+		// (get) Token: 0x06000110 RID: 272 RVA: 0x0004F26C File Offset: 0x0004D46C
+		// (set) Token: 0x06000111 RID: 273 RVA: 0x0004F280 File Offset: 0x0004D480
+		public bool ShowIpPort
+		{
+			get
+			{
+				return this.\u206C\u200C\u202A\u206F\u206D\u200E\u200D\u200E\u200E\u200B\u202B\u206C\u200E\u202E\u200C\u206D\u200C\u206F\u202A\u202C\u202B\u200D\u206C\u202A\u206C\u202D\u200C\u202E\u200B\u200C\u206C\u202D\u200D\u202E\u206F\u206D\u202C\u200F\u200F\u206C\u202E;
+			}
+			[MethodImpl(MethodImplOptions.NoInlining)]
+			set
+			{
+				this.RaiseAndSetIfChanged(ref this.\u206C\u200C\u202A\u206F\u206D\u200E\u200D\u200E\u200E\u200B\u202B\u206C\u200E\u202E\u200C\u206D\u200C\u206F\u202A\u202C\u202B\u200D\u206C\u202A\u206C\u202D\u200C\u202E\u200B\u200C\u206C\u202D\u200D\u202E\u206F\u206D\u202C\u200F\u200F\u206C\u202E, value, <Module>.\u200F\u206C\u200C\u206B\u200D\u206F\u200F\u202B\u206A\u206E\u200D\u202E\u200C\u206F\u200B\u200C\u206F\u202C\u206F\u206D\u202A\u206A\u206F\u200E\u206E\u206F\u200C\u202D\u200C\u200E\u200D\u200F\u206A\u200B\u202E\u202C\u200D\u206F\u200B\u200D\u202E<string>(-2002949992));
+			}
+		}
+
+		// Token: 0x17000002 RID: 2
+		// (get) Token: 0x06000112 RID: 274 RVA: 0x0004F2A8 File Offset: 0x0004D4A8
+		// (set) Token: 0x06000113 RID: 275 RVA: 0x0004F2BC File Offset: 0x0004D4BC
+		public string ServerIp { get; set; } = <Module>.\u200C\u200D\u202E\u202C\u202D\u202B\u200E\u202C\u200E\u202C\u206A\u202A\u202E\u202E\u200F\u202A\u200D\u206D\u206B\u206B\u206B\u200C\u202E\u206C\u200F\u202A\u202E\u202E\u206E\u200F\u200C\u200F\u200C\u200B\u200B\u206F\u202D\u200E\u200B\u202C\u202E<string>(-574761107);
+
+		// Token: 0x17000003 RID: 3
+		// (get) Token: 0x06000114 RID: 276 RVA: 0x0004F2D0 File Offset: 0x0004D4D0
+		// (set) Token: 0x06000115 RID: 277 RVA: 0x0004F2E4 File Offset: 0x0004D4E4
+		public string ServerPort { get; set; } = <Module>.\u200F\u206C\u200C\u206B\u200D\u206F\u200F\u202B\u206A\u206E\u200D\u202E\u200C\u206F\u200B\u200C\u206F\u202C\u206F\u206D\u202A\u206A\u206F\u200E\u206E\u206F\u200C\u202D\u200C\u200E\u200D\u200F\u206A\u200B\u202E\u202C\u200D\u206F\u200B\u200D\u202E<string>(1734078333);
+
+		// Token: 0x17000004 RID: 4
+		// (get) Token: 0x06000116 RID: 278 RVA: 0x0004F2F8 File Offset: 0x0004D4F8
+		public ReactiveCommand<Unit, Unit> SecretTrigger { get; }
+
+		// Token: 0x06000117 RID: 279 RVA: 0x0004F30C File Offset: 0x0004D50C
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public LoginViewModel(MainWindowViewModel A_1)
+		{
+			for (;;)
+			{
+				IL_4B:
+				uint num = 1178439707u;
+				for (;;)
+				{
+					uint num2;
+					switch ((num2 = (num ^ 129451521u)) % 4u)
+					{
+					case 0u:
+						goto IL_4B;
+					case 2u:
+						this.\u200F\u202E\u200C\u202E\u200D\u202C\u202C\u200B\u206C\u202E\u202E\u206C\u202C\u206C\u200D\u200D\u202A\u206A\u206D\u206B\u206F\u200D\u202E\u206F\u202B\u202C\u202B\u206E\u200E\u200D\u202C\u200F\u206B\u200F\u206F\u202B\u200D\u206C\u200E\u202B\u202E = A_1;
+						num = (num2 * 4106190455u ^ 1846067704u);
+						continue;
+					case 3u:
+						this.SecretTrigger = LoginViewModel.\u202E\u206D\u206E\u206F\u200E\u202D\u200C\u202B\u202B\u206A\u202B\u202C\u206B\u202B\u206B\u202B\u200D\u206D\u202E\u206F\u200C\u200E\u206A\u206A\u200D\u202B\u200C\u206C\u200D\u206F\u200C\u200F\u206C\u200F\u202E\u206A\u202B\u202D\u200D\u202B\u202E(new Action(this.\u200F\u200B\u206F\u202D\u200F\u200D\u202C\u206A\u202A\u200D\u202B\u200C\u206D\u206C\u202C\u206B\u200F\u200F\u206A\u200F\u206B\u206B\u206F\u202C\u200C\u206B\u200D\u206C\u202B\u206C\u202C\u200D\u202A\u202E\u206B\u206F\u200F\u206B\u200C\u206A\u202E), null, null);
+						num = (num2 * 3378116132u ^ 2398527196u);
+						continue;
+					}
+					return;
+				}
+			}
+		}
+
+		// Token: 0x17000005 RID: 5
+		// (get) Token: 0x06000118 RID: 280 RVA: 0x0004F3C8 File Offset: 0x0004D5C8
+		// (set) Token: 0x06000119 RID: 281 RVA: 0x0004F3DC File Offset: 0x0004D5DC
+		public string Username
+		{
+			get
+			{
+				return this.\u200D\u206D\u202A\u202D\u200B\u202A\u206B\u200F\u206A\u200D\u200E\u206F\u206A\u200E\u200C\u200E\u206A\u206B\u206F\u206F\u206B\u202D\u202A\u200D\u206C\u206F\u206F\u200B\u206B\u202E\u202B\u202C\u206B\u202A\u200B\u202A\u202B\u206C\u200C\u206A\u202E;
+			}
+			[MethodImpl(MethodImplOptions.NoInlining)]
+			set
+			{
+				if (LoginViewModel.\u206A\u202B\u202C\u206B\u200B\u202A\u206B\u200D\u200C\u202A\u202A\u202C\u200D\u206F\u206C\u206C\u202C\u206C\u202E\u206E\u202C\u202A\u206A\u202C\u200C\u200E\u202D\u200C\u206F\u206D\u200F\u206C\u206D\u202C\u200F\u206B\u200E\u206A\u206A\u202E\u202E(this.\u200D\u206D\u202A\u202D\u200B\u202A\u206B\u200F\u206A\u200D\u200E\u206F\u206A\u200E\u200C\u200E\u206A\u206B\u206F\u206F\u206B\u202D\u202A\u200D\u206C\u206F\u206F\u200B\u206B\u202E\u202B\u202C\u206B\u202A\u200B\u202A\u202B\u206C\u200C\u206A\u202E, value))
+				{
+					for (;;)
+					{
+						IL_0E:
+						int num = -942407643;
+						for (;;)
+						{
+							switch ((num ^ -185397584) % 3)
+							{
+							case 1:
+								this.\u200D\u206D\u202A\u202D\u200B\u202A\u206B\u200F\u206A\u200D\u200E\u206F\u206A\u200E\u200C\u200E\u206A\u206B\u206F\u206F\u206B\u202D\u202A\u200D\u206C\u206F\u206F\u200B\u206B\u202E\u202B\u202C\u206B\u202A\u200B\u202A\u202B\u206C\u200C\u206A\u202E = value;
+								this.RaiseAndSetIfChanged(ref this.\u200D\u206D\u202A\u202D\u200B\u202A\u206B\u200F\u206A\u200D\u200E\u206F\u206A\u200E\u200C\u200E\u206A\u206B\u206F\u206F\u206B\u202D\u202A\u200D\u206C\u206F\u206F\u200B\u206B\u202E\u202B\u202C\u206B\u202A\u200B\u202A\u202B\u206C\u200C\u206A\u202E, value, <Module>.\u206D\u200F\u206B\u202B\u206D\u202A\u202D\u206C\u200C\u200F\u200C\u202C\u200B\u206A\u206D\u206D\u200B\u202C\u206C\u202B\u206F\u202A\u206F\u206C\u206E\u202D\u202B\u202C\u202A\u206E\u202B\u206F\u202E\u206C\u200E\u202B\u200F\u206D\u206E\u200E\u202E<string>(730895426));
+								((RelayCommand)this.LoginCommand).RaiseCanExecuteChanged();
+								num = -984963640;
+								continue;
+							case 2:
+								goto IL_0E;
+							}
+							goto Block_1;
+						}
+					}
+					Block_1:;
+				}
+			}
+		}
+
+		// Token: 0x17000006 RID: 6
+		// (get) Token: 0x0600011A RID: 282 RVA: 0x0004F454 File Offset: 0x0004D654
+		// (set) Token: 0x0600011B RID: 283 RVA: 0x0004F468 File Offset: 0x0004D668
+		public string Password
+		{
+			get
+			{
+				return this.\u206A\u202C\u206A\u206F\u202C\u206E\u206E\u202B\u200B\u206A\u206D\u202C\u200F\u202B\u202A\u200B\u200D\u200B\u200B\u206F\u200B\u206C\u206E\u206D\u200C\u202D\u206F\u206A\u202B\u200D\u206D\u202D\u202B\u206B\u202B\u202A\u200F\u206B\u200D\u202C\u202E;
+			}
+			[MethodImpl(MethodImplOptions.NoInlining)]
+			set
+			{
+				if (LoginViewModel.\u206A\u202B\u202C\u206B\u200B\u202A\u206B\u200D\u200C\u202A\u202A\u202C\u200D\u206F\u206C\u206C\u202C\u206C\u202E\u206E\u202C\u202A\u206A\u202C\u200C\u200E\u202D\u200C\u206F\u206D\u200F\u206C\u206D\u202C\u200F\u206B\u200E\u206A\u206A\u202E\u202E(this.\u206A\u202C\u206A\u206F\u202C\u206E\u206E\u202B\u200B\u206A\u206D\u202C\u200F\u202B\u202A\u200B\u200D\u200B\u200B\u206F\u200B\u206C\u206E\u206D\u200C\u202D\u206F\u206A\u202B\u200D\u206D\u202D\u202B\u206B\u202B\u202A\u200F\u206B\u200D\u202C\u202E, value))
+				{
+					for (;;)
+					{
+						IL_11:
+						uint num = 1834175432u;
+						for (;;)
+						{
+							uint num2;
+							switch ((num2 = (num ^ 1412569501u)) % 5u)
+							{
+							case 0u:
+								this.RaiseAndSetIfChanged(ref this.\u206A\u202C\u206A\u206F\u202C\u206E\u206E\u202B\u200B\u206A\u206D\u202C\u200F\u202B\u202A\u200B\u200D\u200B\u200B\u206F\u200B\u206C\u206E\u206D\u200C\u202D\u206F\u206A\u202B\u200D\u206D\u202D\u202B\u206B\u202B\u202A\u200F\u206B\u200D\u202C\u202E, value, <Module>.\u206D\u200F\u206B\u202B\u206D\u202A\u202D\u206C\u200C\u200F\u200C\u202C\u200B\u206A\u206D\u206D\u200B\u202C\u206C\u202B\u206F\u202A\u206F\u206C\u206E\u202D\u202B\u202C\u202A\u206E\u202B\u206F\u202E\u206C\u200E\u202B\u200F\u206D\u206E\u200E\u202E<string>(633319133));
+								num = 912065028u;
+								continue;
+							case 1u:
+								this.\u206A\u202C\u206A\u206F\u202C\u206E\u206E\u202B\u200B\u206A\u206D\u202C\u200F\u202B\u202A\u200B\u200D\u200B\u200B\u206F\u200B\u206C\u206E\u206D\u200C\u202D\u206F\u206A\u202B\u200D\u206D\u202D\u202B\u206B\u202B\u202A\u200F\u206B\u200D\u202C\u202E = value;
+								num = (num2 * 1836205805u ^ 3621201092u);
+								continue;
+							case 3u:
+								goto IL_11;
+							case 4u:
+								((RelayCommand)this.LoginCommand).RaiseCanExecuteChanged();
+								num = (num2 * 1901688015u ^ 301056142u);
+								continue;
+							}
+							goto Block_1;
+						}
+					}
+					Block_1:;
+				}
+			}
+		}
+
+		// Token: 0x17000007 RID: 7
+		// (get) Token: 0x0600011C RID: 284 RVA: 0x0004F508 File Offset: 0x0004D708
+		// (set) Token: 0x0600011D RID: 285 RVA: 0x0004F51C File Offset: 0x0004D71C
+		public string ErrorMessage
+		{
+			get
+			{
+				return this.\u202A\u206D\u200D\u200C\u200E\u206A\u202A\u202C\u206A\u200D\u202A\u200F\u200E\u202E\u206B\u202C\u200F\u206C\u200B\u202A\u202D\u200D\u200D\u202E\u202C\u200C\u206A\u202E\u200C\u200D\u206A\u202A\u200B\u206E\u200D\u206B\u202E\u200F\u200F\u202E\u202E;
+			}
+			[MethodImpl(MethodImplOptions.NoInlining)]
+			set
+			{
+				if (LoginViewModel.\u206A\u202B\u202C\u206B\u200B\u202A\u206B\u200D\u200C\u202A\u202A\u202C\u200D\u206F\u206C\u206C\u202C\u206C\u202E\u206E\u202C\u202A\u206A\u202C\u200C\u200E\u202D\u200C\u206F\u206D\u200F\u206C\u206D\u202C\u200F\u206B\u200E\u206A\u206A\u202E\u202E(this.\u202A\u206D\u200D\u200C\u200E\u206A\u202A\u202C\u206A\u200D\u202A\u200F\u200E\u202E\u206B\u202C\u200F\u206C\u200B\u202A\u202D\u200D\u200D\u202E\u202C\u200C\u206A\u202E\u200C\u200D\u206A\u202A\u200B\u206E\u200D\u206B\u202E\u200F\u200F\u202E\u202E, value))
+				{
+					for (;;)
+					{
+						IL_0E:
+						int num = -1523013881;
+						for (;;)
+						{
+							switch ((num ^ -1835864682) % 4)
+							{
+							case 0:
+								goto IL_0E;
+							case 1:
+								this.RaiseAndSetIfChanged(ref this.\u202A\u206D\u200D\u200C\u200E\u206A\u202A\u202C\u206A\u200D\u202A\u200F\u200E\u202E\u206B\u202C\u200F\u206C\u200B\u202A\u202D\u200D\u200D\u202E\u202C\u200C\u206A\u202E\u200C\u200D\u206A\u202A\u200B\u206E\u200D\u206B\u202E\u200F\u200F\u202E\u202E, value, <Module>.\u200D\u202D\u200F\u206B\u206B\u206C\u202C\u202D\u200B\u200E\u206F\u202E\u206A\u202C\u206E\u202E\u202B\u200D\u200E\u202E\u202B\u206B\u202C\u202C\u206F\u200D\u206B\u200C\u206A\u200E\u206D\u206F\u206C\u206A\u206C\u200F\u206B\u206C\u206E\u200E\u202E<string>(724139512));
+								num = -574720480;
+								continue;
+							case 2:
+								this.RaisePropertyChanged(<Module>.\u206C\u202C\u200F\u202A\u200C\u202E\u200E\u202A\u202D\u202B\u202A\u200F\u206D\u202B\u200F\u206C\u202B\u202D\u200F\u206C\u206A\u202E\u206F\u202C\u200F\u206E\u200D\u202B\u200B\u206E\u206D\u206A\u200C\u206F\u202A\u206B\u202C\u202C\u200F\u206F\u202E<string>(-1426733330));
+								num = -669662903;
+								continue;
+							}
+							goto Block_1;
+						}
+					}
+					Block_1:;
+				}
+			}
+		}
+
+		// Token: 0x17000008 RID: 8
+		// (get) Token: 0x0600011E RID: 286 RVA: 0x0004F598 File Offset: 0x0004D798
+		public bool HasError
+		{
+			get
+			{
+				return !LoginViewModel.\u202C\u206A\u202E\u206C\u202E\u202C\u206F\u206B\u200D\u202D\u206D\u200D\u206E\u202C\u202D\u200F\u202B\u200D\u206F\u206B\u206C\u202D\u206A\u200C\u202E\u206F\u200B\u206F\u206E\u206E\u202C\u202A\u202A\u202A\u200B\u200E\u200B\u202A\u206E\u206E\u202E(this.ErrorMessage);
+			}
+		}
+
+		// Token: 0x17000009 RID: 9
+		// (get) Token: 0x0600011F RID: 287 RVA: 0x0004F5B4 File Offset: 0x0004D7B4
+		public ICommand LoginCommand
+		{
+			get
+			{
+				ICommand result;
+				if ((result = this.\u202E\u206E\u206A\u202B\u202A\u200E\u206D\u202B\u200F\u200F\u206B\u202C\u206A\u200C\u206A\u202A\u206F\u206D\u202B\u202A\u202E\u202C\u200F\u200D\u200C\u206F\u200F\u200D\u206A\u200F\u206D\u202B\u200C\u206F\u202D\u206B\u200F\u202E\u200B\u206A\u202E) == null)
+				{
+					result = (this.\u202E\u206E\u206A\u202B\u202A\u200E\u206D\u202B\u200F\u200F\u206B\u202C\u206A\u200C\u206A\u202A\u206F\u206D\u202B\u202A\u202E\u202C\u200F\u200D\u200C\u206F\u200F\u200D\u206A\u200F\u206D\u202B\u200C\u206F\u202D\u206B\u200F\u202E\u200B\u206A\u202E = new RelayCommand(new Action<object>(this.\u200F\u202B\u206A\u200D\u202A\u202A\u202E\u200F\u200F\u206E\u206C\u202C\u206D\u200B\u200C\u200C\u202A\u202C\u206B\u200C\u202E\u202E\u202B\u200F\u200E\u202B\u206F\u206F\u206B\u206F\u206C\u206F\u200F\u200E\u206E\u200F\u200F\u200D\u202A\u206A\u202E), new Func<object, bool>(this.\u202C\u206F\u206C\u202C\u206E\u206F\u200B\u200F\u202A\u202A\u202C\u200C\u200D\u200B\u206B\u202A\u200F\u202C\u202E\u202C\u206B\u200E\u202E\u202A\u200B\u200B\u200D\u206A\u206C\u200F\u206F\u202E\u200F\u206E\u200F\u206B\u206C\u200F\u206D\u206B\u202E)));
+				}
+				return result;
+			}
+		}
+
+		// Token: 0x06000120 RID: 288 RVA: 0x0004F5F4 File Offset: 0x0004D7F4
+		public static void FuncEnc(byte[] data, ulong session)
+		{
+			byte[] array = LoginViewModel.\u206F\u206E\u202C\u206C\u202A\u206B\u200F\u206F\u202E\u206F\u206B\u202C\u206F\u202A\u200C\u200D\u202C\u200C\u206A\u202B\u200E\u206A\u200D\u202D\u202B\u202D\u200B\u202A\u200F\u206D\u200C\u202C\u206D\u206E\u206A\u206A\u200C\u202D\u202A\u206E\u202E(session);
+			for (;;)
+			{
+				IL_07:
+				uint num = 2306937044u;
+				for (;;)
+				{
+					uint num2;
+					switch ((num2 = (num ^ 2513381404u)) % 6u)
+					{
+					case 1u:
+					{
+						int num3;
+						num = ((num3 >= data.Length) ? 3007469434u : 3593773826u);
+						continue;
+					}
+					case 2u:
+					{
+						int num4 = array.Length;
+						int num3 = 0;
+						num = (num2 * 2323821819u ^ 4016226297u);
+						continue;
+					}
+					case 3u:
+					{
+						int num3;
+						num3++;
+						num = (num2 * 4204726900u ^ 4151142893u);
+						continue;
+					}
+					case 4u:
+					{
+						int num3;
+						int num5 = num3;
+						int num4;
+						data[num5] ^= array[num3 % num4];
+						num = 2931645315u;
+						continue;
+					}
+					case 5u:
+						goto IL_07;
+					}
+					return;
+				}
+			}
+		}
+
+		// Token: 0x06000121 RID: 289 RVA: 0x0004F690 File Offset: 0x0004D890
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		private string \u206C\u206C\u202B\u200F\u202B\u206E\u200F\u200D\u200D\u206A\u200D\u202D\u200D\u206B\u206B\u206A\u206F\u206D\u206F\u200D\u206F\u206F\u200F\u206A\u200D\u206A\u200F\u202E\u202A\u200E\u202C\u200B\u200B\u202C\u202D\u200D\u200D\u200F\u202E\u200C\u202E(string A_1)
+		{
+			MD5 md = LoginViewModel.\u206D\u200D\u202D\u202C\u206B\u202B\u206E\u200D\u202E\u200D\u206F\u202E\u200B\u206F\u206C\u206F\u202B\u200D\u206F\u206C\u202C\u202E\u202B\u200C\u206E\u200F\u206E\u202A\u200F\u206B\u200E\u200E\u202D\u202A\u206A\u200B\u206D\u206D\u202E\u202A\u202E();
+			string result;
+			try
+			{
+				byte[] array = LoginViewModel.\u206C\u202D\u202E\u200E\u202E\u200B\u202C\u206F\u206D\u200E\u206C\u202A\u206C\u202A\u202B\u206F\u206A\u206E\u206D\u206D\u206D\u200F\u206F\u206C\u200B\u202A\u200F\u200F\u202D\u206F\u202C\u206B\u206A\u200D\u202E\u200B\u202A\u202E\u202E\u200E\u202E(LoginViewModel.\u200D\u202E\u200C\u200B\u202B\u202B\u202A\u200F\u206D\u202A\u202B\u206C\u206E\u202A\u200D\u200F\u206B\u206C\u200E\u206F\u200D\u206E\u200B\u206D\u206E\u200D\u202D\u200D\u206E\u200B\u202C\u206F\u202A\u206C\u202B\u202D\u206F\u206F\u202C\u206B\u202E(), A_1);
+				for (;;)
+				{
+					IL_12:
+					uint num = 3936684230u;
+					for (;;)
+					{
+						uint num2;
+						switch ((num2 = (num ^ 2404435145u)) % 9u)
+						{
+						case 0u:
+						{
+							int num3;
+							num3++;
+							num = (num2 * 2496173364u ^ 669173806u);
+							continue;
+						}
+						case 1u:
+						{
+							byte[] array2 = LoginViewModel.\u206E\u200E\u202D\u202C\u202A\u200C\u200E\u206C\u200F\u206D\u206F\u206A\u200D\u206A\u200F\u206A\u206C\u202E\u206B\u202B\u202E\u206D\u202D\u206B\u200C\u200C\u200B\u206C\u200D\u206A\u200E\u202C\u200F\u202B\u206A\u202E\u200D\u206C\u202A\u206F\u202E(md, array);
+							StringBuilder stringBuilder = LoginViewModel.\u200F\u200D\u206C\u202E\u202A\u202E\u202D\u206A\u200F\u206D\u202D\u200C\u206D\u206C\u202B\u200B\u200D\u202A\u200C\u206A\u200C\u206E\u206C\u206E\u206D\u206B\u200F\u200F\u202D\u202B\u202C\u200E\u200C\u206B\u200D\u206A\u200C\u200B\u200E\u206A\u202E();
+							byte[] array3 = array2;
+							num = (num2 * 1411017551u ^ 1855323518u);
+							continue;
+						}
+						case 2u:
+							num = (num2 * 3615352294u ^ 1082705006u);
+							continue;
+						case 3u:
+						{
+							StringBuilder stringBuilder;
+							result = LoginViewModel.\u206B\u200F\u206B\u206C\u200D\u202A\u206D\u200D\u200E\u202B\u206B\u200F\u202B\u202A\u200E\u206E\u200E\u202E\u206E\u202B\u200B\u200B\u202D\u202C\u206D\u200B\u206B\u200B\u202D\u206B\u206D\u206B\u200E\u206D\u206D\u202D\u200D\u202A\u202B\u206A\u202E(stringBuilder);
+							num = (num2 * 3786085866u ^ 788227519u);
+							continue;
+						}
+						case 4u:
+							goto IL_12;
+						case 5u:
+						{
+							int num3;
+							byte[] array3;
+							byte b = array3[num3];
+							StringBuilder stringBuilder;
+							LoginViewModel.\u206C\u202B\u200C\u200F\u206A\u200C\u200E\u202C\u206E\u206A\u206F\u206D\u206D\u206C\u202B\u206B\u200D\u200B\u206F\u206D\u206C\u200F\u206D\u202B\u200F\u200D\u200F\u206F\u206A\u200C\u202B\u200E\u206A\u202E\u202E\u200D\u206C\u200B\u202A\u202A\u202E(stringBuilder, b.ToString(<Module>.\u200F\u206C\u200C\u206B\u200D\u206F\u200F\u202B\u206A\u206E\u200D\u202E\u200C\u206F\u200B\u200C\u206F\u202C\u206F\u206D\u202A\u206A\u206F\u200E\u206E\u206F\u200C\u202D\u200C\u200E\u200D\u200F\u206A\u200B\u202E\u202C\u200D\u206F\u200B\u200D\u202E<string>(1548098676)));
+							num = 2331877802u;
+							continue;
+						}
+						case 6u:
+						{
+							int num3;
+							byte[] array3;
+							num = ((num3 >= array3.Length) ? 3140242590u : 2657151409u);
+							continue;
+						}
+						case 8u:
+						{
+							int num3 = 0;
+							num = (num2 * 884434231u ^ 1249558889u);
+							continue;
+						}
+						}
+						goto Block_3;
+					}
+				}
+				Block_3:;
+			}
+			finally
+			{
+				if (md != null)
+				{
+					for (;;)
+					{
+						IL_113:
+						uint num4 = 4268874584u;
+						for (;;)
+						{
+							uint num2;
+							switch ((num2 = (num4 ^ 2404435145u)) % 3u)
+							{
+							case 0u:
+								goto IL_113;
+							case 1u:
+								LoginViewModel.\u206F\u206B\u200E\u200E\u202D\u202A\u202A\u200E\u206A\u206D\u202C\u202B\u202D\u202A\u202B\u202B\u206E\u206C\u206F\u202D\u200E\u202B\u206B\u206E\u202B\u202D\u200E\u206D\u200C\u200F\u206F\u200C\u202E\u206B\u206C\u206A\u200E\u202C\u200C\u206E\u202E(md);
+								num4 = (num2 * 2719157472u ^ 508304869u);
+								continue;
+							}
+							goto Block_6;
+						}
+					}
+					Block_6:;
+				}
+			}
+			return result;
+		}
+
+		// Token: 0x06000122 RID: 290 RVA: 0x0004F808 File Offset: 0x0004DA08
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		private void \u200C\u200B\u200F\u206D\u200F\u202D\u200E\u202B\u206D\u200F\u200D\u200F\u206D\u206F\u200F\u206F\u206A\u206F\u206F\u200E\u206F\u202D\u202E\u206E\u200C\u206F\u206D\u200C\u202B\u206E\u206E\u200D\u202B\u200E\u202B\u200C\u206E\u206C\u200E\u202E()
+		{
+			this.ErrorMessage = string.Empty;
+			try
+			{
+				TCPClientWrapper tcpclientWrapper = new TCPClientWrapper(this.ServerIp, ushort.Parse(this.ServerPort), ushort.Parse(*uY(02&ZTKH6=@<p48D!ym:1+.\u206B\u206F\u206B\u206F\u200D\u202A\u206B\u200F\u202C\u202B\u206E\u206D\u206A\u202C\u200C\u206D\u206B\u200B\u202C\u200B\u202A\u202A\u206C\u202C\u200E\u200B\u200F\u202C\u200F\u202A\u202C\u206C\u202C\u200F\u202D\u200C\u206E\u200F\u202B\u206B\u202E));
+				for (;;)
+				{
+					IL_2C:
+					uint num = 1617637419u;
+					for (;;)
+					{
+						uint num2;
+						switch ((num2 = (num ^ 1818236709u)) % 12u)
+						{
+						case 0u:
+							this.ErrorMessage = string.Empty;
+							num = 1249245361u;
+							continue;
+						case 2u:
+						{
+							string text;
+							byte[] passhash = LoginViewModel.\u206C\u202D\u202E\u200E\u202E\u200B\u202C\u206F\u206D\u200E\u206C\u202A\u206C\u202A\u202B\u206F\u206A\u206E\u206D\u206D\u206D\u200F\u206F\u206C\u200B\u202A\u200F\u200F\u202D\u206F\u202C\u206B\u206A\u200D\u202E\u200B\u202A\u202E\u202E\u200E\u202E(LoginViewModel.\u202E\u206D\u200D\u202E\u202C\u200D\u202A\u206C\u206F\u202E\u200F\u206E\u206A\u206C\u202A\u200F\u200F\u200E\u202A\u200B\u200E\u206D\u202B\u206E\u200C\u206C\u200C\u206B\u206E\u206B\u200D\u206D\u202E\u202B\u206B\u202D\u200C\u206E\u206F\u202B\u202E(), text);
+							num = (num2 * 1538177746u ^ 2878027038u);
+							continue;
+						}
+						case 4u:
+							this.ErrorMessage = <Module>.\u200D\u202D\u200F\u206B\u206B\u206C\u202C\u202D\u200B\u200E\u206F\u202E\u206A\u202C\u206E\u202E\u202B\u200D\u200E\u202E\u202B\u206B\u202C\u202C\u206F\u200D\u206B\u200C\u206A\u200E\u206D\u206F\u206C\u206A\u206C\u200F\u206B\u206C\u206E\u200E\u202E<string>(-1056715802);
+							num = 1835722930u;
+							continue;
+						case 5u:
+							goto IL_2C;
+						case 6u:
+							this.ErrorMessage = <Module>.\u206C\u202C\u200F\u202A\u200C\u202E\u200E\u202A\u202D\u202B\u202A\u200F\u206D\u202B\u200F\u206C\u202B\u202D\u200F\u206C\u206A\u202E\u206F\u202C\u200F\u206E\u200D\u202B\u200B\u206E\u206D\u206A\u200C\u206F\u202A\u206B\u202C\u202C\u200F\u206F\u202E<string>(1122904772);
+							num = 1479282868u;
+							continue;
+						case 7u:
+						{
+							byte[] passhash;
+							this.\u202D\u202A\u200B\u200B\u206A\u206E\u206B\u206C\u200B\u206B\u200D\u202B\u202B\u206E\u206E\u202A\u200B\u200D\u206E\u200C\u202E\u202D\u202D\u200B\u202B\u206E\u206B\u202B\u202B\u206F\u202C\u206F\u200D\u200F\u200F\u202E\u200B\u202B\u200B\u206B\u202E = tcpclientWrapper.Login(this.Username, passhash);
+							num = (((this.\u202D\u202A\u200B\u200B\u206A\u206E\u206B\u206C\u200B\u206B\u200D\u202B\u202B\u206E\u206E\u202A\u200B\u200D\u206E\u200C\u202E\u202D\u202D\u200B\u202B\u206E\u206B\u202B\u202B\u206F\u202C\u206F\u200D\u200F\u200F\u202E\u200B\u202B\u200B\u206B\u202E != ulong.MaxValue) ? 1744456828u : 620953618u) ^ num2 * 200729687u);
+							continue;
+						}
+						case 8u:
+							LoginViewModel.FuncEnc(DrawImage.Data, this.\u202D\u202A\u200B\u200B\u206A\u206E\u206B\u206C\u200B\u206B\u200D\u202B\u202B\u206E\u206E\u202A\u200B\u200D\u206E\u200C\u202E\u202D\u202D\u200B\u202B\u206E\u206B\u202B\u202B\u206F\u202C\u206F\u200D\u200F\u200F\u202E\u200B\u202B\u200B\u206B\u202E);
+							this.\u200F\u202E\u200C\u202E\u200D\u202C\u202C\u200B\u206C\u202E\u202E\u206C\u202C\u206C\u200D\u200D\u202A\u206A\u206D\u206B\u206F\u200D\u202E\u206F\u202B\u202C\u202B\u206E\u200E\u200D\u202C\u200F\u206B\u200F\u206F\u202B\u200D\u206C\u200E\u202B\u202E.ShowMainView(tcpclientWrapper, this.\u202D\u202A\u200B\u200B\u206A\u206E\u206B\u206C\u200B\u206B\u200D\u202B\u202B\u206E\u206E\u202A\u200B\u200D\u206E\u200C\u202E\u202D\u202D\u200B\u202B\u206E\u206B\u202B\u202B\u206F\u202C\u206F\u200D\u200F\u200F\u202E\u200B\u202B\u200B\u206B\u202E);
+							num = (num2 * 3317691777u ^ 2330873120u);
+							continue;
+						case 9u:
+						{
+							string text = this.\u206C\u206C\u202B\u200F\u202B\u206E\u200F\u200D\u200D\u206A\u200D\u202D\u200D\u206B\u206B\u206A\u206F\u206D\u206F\u200D\u206F\u206F\u200F\u206A\u200D\u206A\u200F\u202E\u202A\u200E\u202C\u200B\u200B\u202C\u202D\u200D\u200D\u200F\u202E\u200C\u202E(this.Password);
+							num = 1827030867u;
+							continue;
+						}
+						case 10u:
+							num = (((tcpclientWrapper.SendHandShake() == 1) ? 1993053464u : 698886027u) ^ num2 * 2672339101u);
+							continue;
+						case 11u:
+							num = (((tcpclientWrapper.ReceiveHandShake() == 1) ? 2677837894u : 3592837035u) ^ num2 * 2030801186u);
+							continue;
+						}
+						goto Block_3;
+					}
+				}
+				Block_3:;
+			}
+			catch (Exception ex)
+			{
+				this.ErrorMessage = LoginViewModel.\u202E\u206C\u202D\u200C\u200E\u206F\u202A\u200E\u206E\u206E\u200D\u206B\u202B\u206C\u206A\u200B\u206D\u206E\u206F\u202E\u202E\u200F\u206B\u202E\u202D\u206B\u206A\u206B\u202B\u206A\u202A\u202A\u206C\u206A\u206B\u202A\u202C\u202C\u206D\u206A\u202E(<Module>.\u200D\u202D\u200F\u206B\u206B\u206C\u202C\u202D\u200B\u200E\u206F\u202E\u206A\u202C\u206E\u202E\u202B\u200D\u200E\u202E\u202B\u206B\u202C\u202C\u206F\u200D\u206B\u200C\u206A\u200E\u206D\u206F\u206C\u206A\u206C\u200F\u206B\u206C\u206E\u200E\u202E<string>(1608722916), LoginViewModel.\u202C\u202B\u202E\u200B\u206B\u206F\u200D\u206B\u200F\u202A\u206B\u200E\u206C\u202C\u200C\u202B\u206E\u206A\u202C\u200C\u202A\u202A\u206A\u202A\u206A\u200C\u200B\u202C\u206A\u206B\u202D\u206C\u202E\u200F\u200E\u200C\u206B\u202D\u202E\u206B\u202E(ex));
+			}
+		}
+
+		// Token: 0x06000123 RID: 291 RVA: 0x0004FA1C File Offset: 0x0004DC1C
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		private bool \u202B\u206D\u206F\u202C\u202D\u206A\u202D\u200D\u202A\u202E\u206B\u200F\u202C\u202E\u206D\u200D\u202C\u202A\u206A\u200F\u202D\u200C\u202D\u202D\u206B\u200F\u200B\u200D\u206A\u200D\u202E\u202B\u202E\u200D\u206E\u206D\u202B\u202C\u200B\u200C\u202E()
+		{
+			if (!LoginViewModel.\u202C\u206A\u202E\u206C\u202E\u202C\u206F\u206B\u200D\u202D\u206D\u200D\u206E\u202C\u202D\u200F\u202B\u200D\u206F\u206B\u206C\u202D\u206A\u200C\u202E\u206F\u200B\u206F\u206E\u206E\u202C\u202A\u202A\u202A\u200B\u200E\u200B\u202A\u206E\u206E\u202E(this.Username))
+			{
+				for (;;)
+				{
+					IL_10:
+					uint num = 3964499960u;
+					for (;;)
+					{
+						uint num2;
+						switch ((num2 = (num ^ 2561586433u)) % 9u)
+						{
+						case 0u:
+							num = (((LoginViewModel.\u200B\u206F\u202D\u200B\u200D\u206B\u202B\u200F\u206E\u206B\u206C\u202A\u202B\u200D\u206C\u202A\u200E\u206B\u202A\u202B\u202E\u202B\u206F\u200D\u200C\u206C\u206C\u202B\u202D\u202B\u206B\u206B\u200C\u202D\u200D\u206A\u200D\u202C\u206D\u202C\u202E(this.Username) == 13) ? 4121973945u : 2863006692u) ^ num2 * 3466702795u);
+							continue;
+						case 1u:
+							return false;
+						case 2u:
+							num = ((!LoginViewModel.\u206B\u202A\u200B\u202A\u206A\u206C\u206E\u202D\u206E\u202A\u202C\u200F\u200F\u200F\u200F\u200E\u200D\u206E\u200E\u206A\u206E\u200D\u202D\u202C\u206B\u202B\u200B\u206E\u200C\u206D\u206D\u200E\u202A\u202C\u202A\u206E\u200B\u200E\u202E\u206C\u202E(this.Username, <Module>.\u206D\u200F\u206B\u202B\u206D\u202A\u202D\u206C\u200C\u200F\u200C\u202C\u200B\u206A\u206D\u206D\u200B\u202C\u206C\u202B\u206F\u202A\u206F\u206C\u206E\u202D\u202B\u202C\u202A\u206E\u202B\u206F\u202E\u206C\u200E\u202B\u200F\u206D\u206E\u200E\u202E<string>(-742790744))) ? 3048602685u : 3324995434u);
+							continue;
+						case 3u:
+							num = (((!LoginViewModel.\u202C\u206A\u202E\u206C\u202E\u202C\u206F\u206B\u200D\u202D\u206D\u200D\u206E\u202C\u202D\u200F\u202B\u200D\u206F\u206B\u206C\u202D\u206A\u200C\u202E\u206F\u200B\u206F\u206E\u206E\u202C\u202A\u202A\u202A\u200B\u200E\u200B\u202A\u206E\u206E\u202E(this.Password)) ? 1064372207u : 796652523u) ^ num2 * 2326541043u);
+							continue;
+						case 5u:
+							return false;
+						case 6u:
+							goto IL_10;
+						case 7u:
+							return false;
+						case 8u:
+							num = ((LoginViewModel.\u200B\u206F\u202D\u200B\u200D\u206B\u202B\u200F\u206E\u206B\u206C\u202A\u202B\u200D\u206C\u202A\u200E\u206B\u202A\u202B\u202E\u202B\u206F\u200D\u200C\u206C\u206C\u202B\u202D\u202B\u206B\u206B\u200C\u202D\u200D\u206A\u200D\u202C\u206D\u202C\u202E(this.Password) != 8) ? 2619682369u : 2809973935u);
+							continue;
+						}
+						goto Block_1;
+					}
+				}
+				Block_1:
+				return true;
+			}
+			return false;
+		}
+
+		// Token: 0x06000124 RID: 292 RVA: 0x0004FB44 File Offset: 0x0004DD44
+		private void \u200F\u200B\u206F\u202D\u200F\u200D\u202C\u206A\u202A\u200D\u202B\u200C\u206D\u206C\u202C\u206B\u200F\u200F\u206A\u200F\u206B\u206B\u206F\u202C\u200C\u206B\u200D\u206C\u202B\u206C\u202C\u200D\u202A\u202E\u206B\u206F\u200F\u206B\u200C\u206A\u202E()
+		{
+			this.\u202B\u202D\u202E\u202B\u206B\u200F\u202A\u206F\u206E\u200B\u202E\u206E\u202C\u200B\u202A\u202A\u200C\u206F\u202C\u206E\u200E\u200F\u200F\u206A\u200B\u206A\u200D\u202A\u206E\u202A\u206A\u200F\u202B\u200B\u200D\u202B\u200F\u202D\u202A\u206C\u202E++;
+			for (;;)
+			{
+				IL_0E:
+				uint num = 320473217u;
+				for (;;)
+				{
+					uint num2;
+					switch ((num2 = (num ^ 1011841696u)) % 4u)
+					{
+					case 1u:
+						num = (((this.\u202B\u202D\u202E\u202B\u206B\u200F\u202A\u206F\u206E\u200B\u202E\u206E\u202C\u200B\u202A\u202A\u200C\u206F\u202C\u206E\u200E\u200F\u200F\u206A\u200B\u206A\u200D\u202A\u206E\u202A\u206A\u200F\u202B\u200B\u200D\u202B\u200F\u202D\u202A\u206C\u202E > 7) ? 3752565911u : 2226384249u) ^ num2 * 3130191101u);
+						continue;
+					case 2u:
+						this.ShowIpPort = true;
+						num = (num2 * 1882459126u ^ 1540491960u);
+						continue;
+					case 3u:
+						goto IL_0E;
+					}
+					return;
+				}
+			}
+		}
+
+		// Token: 0x06000125 RID: 293 RVA: 0x0004FBC0 File Offset: 0x0004DDC0
+		[NullableContext(2)]
+		[CompilerGenerated]
+		private void \u200F\u202B\u206A\u200D\u202A\u202A\u202E\u200F\u200F\u206E\u206C\u202C\u206D\u200B\u200C\u200C\u202A\u202C\u206B\u200C\u202E\u202E\u202B\u200F\u200E\u202B\u206F\u206F\u206B\u206F\u206C\u206F\u200F\u200E\u206E\u200F\u200F\u200D\u202A\u206A\u202E(object A_1)
+		{
+			this.\u200C\u200B\u200F\u206D\u200F\u202D\u200E\u202B\u206D\u200F\u200D\u200F\u206D\u206F\u200F\u206F\u206A\u206F\u206F\u200E\u206F\u202D\u202E\u206E\u200C\u206F\u206D\u200C\u202B\u206E\u206E\u200D\u202B\u200E\u202B\u200C\u206E\u206C\u200E\u202E();
+		}
+
+		// Token: 0x06000126 RID: 294 RVA: 0x0004FBD4 File Offset: 0x0004DDD4
+		[NullableContext(2)]
+		[CompilerGenerated]
+		private bool \u202C\u206F\u206C\u202C\u206E\u206F\u200B\u200F\u202A\u202A\u202C\u200C\u200D\u200B\u206B\u202A\u200F\u202C\u202E\u202C\u206B\u200E\u202E\u202A\u200B\u200B\u200D\u206A\u206C\u200F\u206F\u202E\u200F\u206E\u200F\u206B\u206C\u200F\u206D\u206B\u202E(object A_1)
+		{
+			return this.\u202B\u206D\u206F\u202C\u202D\u206A\u202D\u200D\u202A\u202E\u206B\u200F\u202C\u202E\u206D\u200D\u202C\u202A\u206A\u200F\u202D\u200C\u202D\u202D\u206B\u200F\u200B\u200D\u206A\u200D\u202E\u202B\u202E\u200D\u206E\u206D\u202B\u202C\u200B\u200C\u202E();
+		}
+
+		// Token: 0x06000127 RID: 295 RVA: 0x0004FBE8 File Offset: 0x0004DDE8
+		static ReactiveCommand<Unit, Unit> \u202E\u206D\u206E\u206F\u200E\u202D\u200C\u202B\u202B\u206A\u202B\u202C\u206B\u202B\u206B\u202B\u200D\u206D\u202E\u206F\u200C\u200E\u206A\u206A\u200D\u202B\u200C\u206C\u200D\u206F\u200C\u200F\u206C\u200F\u202E\u206A\u202B\u202D\u200D\u202B\u202E(Action A_0, IObservable<bool> A_1, IScheduler A_2)
+		{
+			return ReactiveCommand.Create(A_0, A_1, A_2);
+		}
+
+		// Token: 0x06000128 RID: 296 RVA: 0x0004FC00 File Offset: 0x0004DE00
+		static bool \u206A\u202B\u202C\u206B\u200B\u202A\u206B\u200D\u200C\u202A\u202A\u202C\u200D\u206F\u206C\u206C\u202C\u206C\u202E\u206E\u202C\u202A\u206A\u202C\u200C\u200E\u202D\u200C\u206F\u206D\u200F\u206C\u206D\u202C\u200F\u206B\u200E\u206A\u206A\u202E\u202E(string A_0, string A_1)
+		{
+			return A_0 != A_1;
+		}
+
+		// Token: 0x06000129 RID: 297 RVA: 0x0004FC14 File Offset: 0x0004DE14
+		static bool \u202C\u206A\u202E\u206C\u202E\u202C\u206F\u206B\u200D\u202D\u206D\u200D\u206E\u202C\u202D\u200F\u202B\u200D\u206F\u206B\u206C\u202D\u206A\u200C\u202E\u206F\u200B\u206F\u206E\u206E\u202C\u202A\u202A\u202A\u200B\u200E\u200B\u202A\u206E\u206E\u202E(string A_0)
+		{
+			return string.IsNullOrEmpty(A_0);
+		}
+
+		// Token: 0x0600012A RID: 298 RVA: 0x0004FC28 File Offset: 0x0004DE28
+		static byte[] \u206F\u206E\u202C\u206C\u202A\u206B\u200F\u206F\u202E\u206F\u206B\u202C\u206F\u202A\u200C\u200D\u202C\u200C\u206A\u202B\u200E\u206A\u200D\u202D\u202B\u202D\u200B\u202A\u200F\u206D\u200C\u202C\u206D\u206E\u206A\u206A\u200C\u202D\u202A\u206E\u202E(ulong A_0)
+		{
+			return BitConverter.GetBytes(A_0);
+		}
+
+		// Token: 0x0600012B RID: 299 RVA: 0x0004FC3C File Offset: 0x0004DE3C
+		static MD5 \u206D\u200D\u202D\u202C\u206B\u202B\u206E\u200D\u202E\u200D\u206F\u202E\u200B\u206F\u206C\u206F\u202B\u200D\u206F\u206C\u202C\u202E\u202B\u200C\u206E\u200F\u206E\u202A\u200F\u206B\u200E\u200E\u202D\u202A\u206A\u200B\u206D\u206D\u202E\u202A\u202E()
+		{
+			return MD5.Create();
+		}
+
+		// Token: 0x0600012C RID: 300 RVA: 0x0004FC50 File Offset: 0x0004DE50
+		static Encoding \u200D\u202E\u200C\u200B\u202B\u202B\u202A\u200F\u206D\u202A\u202B\u206C\u206E\u202A\u200D\u200F\u206B\u206C\u200E\u206F\u200D\u206E\u200B\u206D\u206E\u200D\u202D\u200D\u206E\u200B\u202C\u206F\u202A\u206C\u202B\u202D\u206F\u206F\u202C\u206B\u202E()
+		{
+			return Encoding.UTF8;
+		}
+
+		// Token: 0x0600012D RID: 301 RVA: 0x0004F21C File Offset: 0x0004D41C
+		static byte[] \u206C\u202D\u202E\u200E\u202E\u200B\u202C\u206F\u206D\u200E\u206C\u202A\u206C\u202A\u202B\u206F\u206A\u206E\u206D\u206D\u206D\u200F\u206F\u206C\u200B\u202A\u200F\u200F\u202D\u206F\u202C\u206B\u206A\u200D\u202E\u200B\u202A\u202E\u202E\u200E\u202E(Encoding A_0, string A_1)
+		{
+			return A_0.GetBytes(A_1);
+		}
+
+		// Token: 0x0600012E RID: 302 RVA: 0x0004FC64 File Offset: 0x0004DE64
+		static byte[] \u206E\u200E\u202D\u202C\u202A\u200C\u200E\u206C\u200F\u206D\u206F\u206A\u200D\u206A\u200F\u206A\u206C\u202E\u206B\u202B\u202E\u206D\u202D\u206B\u200C\u200C\u200B\u206C\u200D\u206A\u200E\u202C\u200F\u202B\u206A\u202E\u200D\u206C\u202A\u206F\u202E(HashAlgorithm A_0, byte[] A_1)
+		{
+			return A_0.ComputeHash(A_1);
+		}
+
+		// Token: 0x0600012F RID: 303 RVA: 0x0004FC78 File Offset: 0x0004DE78
+		static StringBuilder \u200F\u200D\u206C\u202E\u202A\u202E\u202D\u206A\u200F\u206D\u202D\u200C\u206D\u206C\u202B\u200B\u200D\u202A\u200C\u206A\u200C\u206E\u206C\u206E\u206D\u206B\u200F\u200F\u202D\u202B\u202C\u200E\u200C\u206B\u200D\u206A\u200C\u200B\u200E\u206A\u202E()
+		{
+			return new StringBuilder();
+		}
+
+		// Token: 0x06000130 RID: 304 RVA: 0x0004FC8C File Offset: 0x0004DE8C
+		static StringBuilder \u206C\u202B\u200C\u200F\u206A\u200C\u200E\u202C\u206E\u206A\u206F\u206D\u206D\u206C\u202B\u206B\u200D\u200B\u206F\u206D\u206C\u200F\u206D\u202B\u200F\u200D\u200F\u206F\u206A\u200C\u202B\u200E\u206A\u202E\u202E\u200D\u206C\u200B\u202A\u202A\u202E(StringBuilder A_0, string A_1)
+		{
+			return A_0.Append(A_1);
+		}
+
+		// Token: 0x06000131 RID: 305 RVA: 0x0004FCA0 File Offset: 0x0004DEA0
+		static string \u206B\u200F\u206B\u206C\u200D\u202A\u206D\u200D\u200E\u202B\u206B\u200F\u202B\u202A\u200E\u206E\u200E\u202E\u206E\u202B\u200B\u200B\u202D\u202C\u206D\u200B\u206B\u200B\u202D\u206B\u206D\u206B\u200E\u206D\u206D\u202D\u200D\u202A\u202B\u206A\u202E(object A_0)
+		{
+			return A_0.ToString();
+		}
+
+		// Token: 0x06000132 RID: 306 RVA: 0x0004EF70 File Offset: 0x0004D170
+		static void \u206F\u206B\u200E\u200E\u202D\u202A\u202A\u200E\u206A\u206D\u202C\u202B\u202D\u202A\u202B\u202B\u206E\u206C\u206F\u202D\u200E\u202B\u206B\u206E\u202B\u202D\u200E\u206D\u200C\u200F\u206F\u200C\u202E\u206B\u206C\u206A\u200E\u202C\u200C\u206E\u202E(IDisposable A_0)
+		{
+			A_0.Dispose();
+		}
+
+		// Token: 0x06000133 RID: 307 RVA: 0x0004F208 File Offset: 0x0004D408
+		static Encoding \u202E\u206D\u200D\u202E\u202C\u200D\u202A\u206C\u206F\u202E\u200F\u206E\u206A\u206C\u202A\u200F\u200F\u200E\u202A\u200B\u200E\u206D\u202B\u206E\u200C\u206C\u200C\u206B\u206E\u206B\u200D\u206D\u202E\u202B\u206B\u202D\u200C\u206E\u206F\u202B\u202E()
+		{
+			return Encoding.ASCII;
+		}
+
+		// Token: 0x06000134 RID: 308 RVA: 0x0004FCB4 File Offset: 0x0004DEB4
+		static string \u202C\u202B\u202E\u200B\u206B\u206F\u200D\u206B\u200F\u202A\u206B\u200E\u206C\u202C\u200C\u202B\u206E\u206A\u202C\u200C\u202A\u202A\u206A\u202A\u206A\u200C\u200B\u202C\u206A\u206B\u202D\u206C\u202E\u200F\u200E\u200C\u206B\u202D\u202E\u206B\u202E(Exception A_0)
+		{
+			return A_0.Message;
+		}
+
+		// Token: 0x06000135 RID: 309 RVA: 0x0004FCC8 File Offset: 0x0004DEC8
+		static string \u202E\u206C\u202D\u200C\u200E\u206F\u202A\u200E\u206E\u206E\u200D\u206B\u202B\u206C\u206A\u200B\u206D\u206E\u206F\u202E\u202E\u200F\u206B\u202E\u202D\u206B\u206A\u206B\u202B\u206A\u202A\u202A\u206C\u206A\u206B\u202A\u202C\u202C\u206D\u206A\u202E(string A_0, string A_1)
+		{
+			return A_0 + A_1;
+		}
+
+		// Token: 0x06000136 RID: 310 RVA: 0x0004FCDC File Offset: 0x0004DEDC
+		static bool \u206B\u202A\u200B\u202A\u206A\u206C\u206E\u202D\u206E\u202A\u202C\u200F\u200F\u200F\u200F\u200E\u200D\u206E\u200E\u206A\u206E\u200D\u202D\u202C\u206B\u202B\u200B\u206E\u200C\u206D\u206D\u200E\u202A\u202C\u202A\u206E\u200B\u200E\u202E\u206C\u202E(string A_0, string A_1)
+		{
+			return A_0.StartsWith(A_1);
+		}
+
+		// Token: 0x06000137 RID: 311 RVA: 0x0004FCF0 File Offset: 0x0004DEF0
+		static int \u200B\u206F\u202D\u200B\u200D\u206B\u202B\u200F\u206E\u206B\u206C\u202A\u202B\u200D\u206C\u202A\u200E\u206B\u202A\u202B\u202E\u202B\u206F\u200D\u200C\u206C\u206C\u202B\u202D\u202B\u206B\u206B\u200C\u202D\u200D\u206A\u200D\u202C\u206D\u202C\u202E(string A_0)
+		{
+			return A_0.Length;
+		}
+
+		// Token: 0x04000041 RID: 65
+		private string \u200D\u206D\u202A\u202D\u200B\u202A\u206B\u200F\u206A\u200D\u200E\u206F\u206A\u200E\u200C\u200E\u206A\u206B\u206F\u206F\u206B\u202D\u202A\u200D\u206C\u206F\u206F\u200B\u206B\u202E\u202B\u202C\u206B\u202A\u200B\u202A\u202B\u206C\u200C\u206A\u202E = string.Empty;
+
+		// Token: 0x04000042 RID: 66
+		private string \u206A\u202C\u206A\u206F\u202C\u206E\u206E\u202B\u200B\u206A\u206D\u202C\u200F\u202B\u202A\u200B\u200D\u200B\u200B\u206F\u200B\u206C\u206E\u206D\u200C\u202D\u206F\u206A\u202B\u200D\u206D\u202D\u202B\u206B\u202B\u202A\u200F\u206B\u200D\u202C\u202E = string.Empty;
+
+		// Token: 0x04000043 RID: 67
+		private string \u202A\u206D\u200D\u200C\u200E\u206A\u202A\u202C\u206A\u200D\u202A\u200F\u200E\u202E\u206B\u202C\u200F\u206C\u200B\u202A\u202D\u200D\u200D\u202E\u202C\u200C\u206A\u202E\u200C\u200D\u206A\u202A\u200B\u206E\u200D\u206B\u202E\u200F\u200F\u202E\u202E = string.Empty;
+
+		// Token: 0x04000044 RID: 68
+		private readonly MainWindowViewModel \u200F\u202E\u200C\u202E\u200D\u202C\u202C\u200B\u206C\u202E\u202E\u206C\u202C\u206C\u200D\u200D\u202A\u206A\u206D\u206B\u206F\u200D\u202E\u206F\u202B\u202C\u202B\u206E\u200E\u200D\u202C\u200F\u206B\u200F\u206F\u202B\u200D\u206C\u200E\u202B\u202E;
+
+		// Token: 0x04000045 RID: 69
+		private bool \u206C\u200C\u202A\u206F\u206D\u200E\u200D\u200E\u200E\u200B\u202B\u206C\u200E\u202E\u200C\u206D\u200C\u206F\u202A\u202C\u202B\u200D\u206C\u202A\u206C\u202D\u200C\u202E\u200B\u200C\u206C\u202D\u200D\u202E\u206F\u206D\u202C\u200F\u200F\u206C\u202E;
+
+		// Token: 0x04000046 RID: 70
+		private int \u202B\u202D\u202E\u202B\u206B\u200F\u202A\u206F\u206E\u200B\u202E\u206E\u202C\u200B\u202A\u202A\u200C\u206F\u202C\u206E\u200E\u200F\u200F\u206A\u200B\u206A\u200D\u202A\u206E\u202A\u206A\u200F\u202B\u200B\u200D\u202B\u200F\u202D\u202A\u206C\u202E;
+
+		// Token: 0x04000047 RID: 71
+		private ulong \u202D\u202A\u200B\u200B\u206A\u206E\u206B\u206C\u200B\u206B\u200D\u202B\u202B\u206E\u206E\u202A\u200B\u200D\u206E\u200C\u202E\u202D\u202D\u200B\u202B\u206E\u206B\u202B\u202B\u206F\u202C\u206F\u200D\u200F\u200F\u202E\u200B\u202B\u200B\u206B\u202E;
+
+		// Token: 0x04000048 RID: 72
+		[CompilerGenerated]
+		private string \u202E\u206E\u200B\u200B\u200D\u202C\u206B\u206F\u200C\u206C\u206C\u206B\u202E\u200C\u202C\u200E\u202C\u206C\u206B\u206F\u206E\u202D\u206F\u202C\u200E\u206B\u206E\u206A\u202A\u200C\u206C\u206D\u206F\u206E\u202D\u200C\u206F\u200B\u202D\u200D\u202E;
+
+		// Token: 0x04000049 RID: 73
+		[CompilerGenerated]
+		private string \u206B\u206E\u206F\u200B\u206A\u202C\u202C\u206A\u202C\u202A\u200B\u200C\u200B\u206C\u200F\u206C\u206C\u200E\u202D\u206A\u206B\u206A\u202C\u200C\u206C\u202E\u206F\u200B\u200C\u200C\u206C\u202D\u206B\u206D\u206D\u202E\u202A\u202E\u202E\u206C\u202E;
+
+		// Token: 0x0400004A RID: 74
+		[CompilerGenerated]
+		private readonly ReactiveCommand<Unit, Unit> \u202D\u200E\u206D\u200C\u202B\u200D\u200B\u202C\u206B\u206C\u200C\u200D\u202C\u206E\u202A\u200F\u202E\u200F\u200F\u202A\u200C\u206C\u200C\u200D\u200B\u206B\u206B\u206F\u202B\u202A\u202B\u200C\u206C\u202D\u202E\u206C\u206D\u206F\u200B\u206B\u202E;
+
+		// Token: 0x0400004B RID: 75
+		[Nullable(2)]
+		private ICommand \u202E\u206E\u206A\u202B\u202A\u200E\u206D\u202B\u200F\u200F\u206B\u202C\u206A\u200C\u206A\u202A\u206F\u206D\u202B\u202A\u202E\u202C\u200F\u200D\u200C\u206F\u200F\u200D\u206A\u200F\u206D\u202B\u200C\u206F\u202D\u206B\u200F\u202E\u200B\u206A\u202E;
+	}
+}

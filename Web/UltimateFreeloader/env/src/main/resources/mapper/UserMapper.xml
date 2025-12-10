@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rois.happy_shopping.mapper.UserMapper">
+
+    <resultMap id="BaseResultMap" type="com.rois.happy_shopping.entity.User">
+        <id column="id" property="id" jdbcType="VARCHAR"/>
+        <result column="username" property="username" jdbcType="VARCHAR"/>
+        <result column="password" property="password" jdbcType="VARCHAR"/>
+        <result column="email" property="email" jdbcType="VARCHAR"/>
+        <result column="balance" property="balance" jdbcType="DECIMAL"/>
+        <result column="create_time" property="createTime" jdbcType="TIMESTAMP"/>
+        <result column="update_time" property="updateTime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id, username, password, email, balance, create_time, update_time
+    </sql>
+
+    <insert id="insert" parameterType="com.rois.happy_shopping.entity.User" useGeneratedKeys="true" keyProperty="id">
+        insert into users (id, username, password, email, balance, create_time, update_time)
+        values (#{id}, #{username}, #{password}, #{email}, #{balance}, #{createTime}, #{updateTime})
+    </insert>
+
+    <select id="findByUsername" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from users
+        where username = #{username}
+    </select>
+
+    <select id="findById" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from users
+        where id = #{id}
+    </select>
+
+    <update id="updateBalance">
+        update users
+        set balance = #{balance}, update_time = now()
+        where id = #{id}
+    </update>
+
+    <select id="countByUsername" parameterType="java.lang.String" resultType="java.lang.Integer">
+        select count(*)
+        from users
+        where username = #{username}
+    </select>
+
+    <select id="countByEmail" parameterType="java.lang.String" resultType="java.lang.Integer">
+        select count(*)
+        from users
+        where email = #{email}
+    </select>
+
+</mapper>

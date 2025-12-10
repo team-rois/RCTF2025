@@ -1,0 +1,13 @@
+[package]
+name = "challenge"
+version = "0.0.1"
+edition = "2024.alpha"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet" }
+
+[addresses]
+admin = "0xfccc9a421bbb13c1a66a1aa98f0ad75029ede94857779c6915b44f94068b921e"
+challenge = "0x982201612e1d635515eec8e8b8bdc65cc120931543090e9efde3e92cdd61c247"
+vault = "0x0"
+vault_coin = "0x0"

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rois.happy_shopping.mapper.OrderMapper">
+
+    <resultMap id="BaseResultMap" type="com.rois.happy_shopping.entity.Order">
+        <id column="id" property="id" jdbcType="VARCHAR"/>
+        <result column="user_id" property="userId" jdbcType="VARCHAR"/>
+        <result column="product_id" property="productId" jdbcType="VARCHAR"/>
+        <result column="quantity" property="quantity" jdbcType="INTEGER"/>
+        <result column="original_price" property="originalPrice" jdbcType="DECIMAL"/>
+        <result column="discount_amount" property="discountAmount" jdbcType="DECIMAL"/>
+        <result column="final_price" property="finalPrice" jdbcType="DECIMAL"/>
+        <result column="coupon_id" property="couponId" jdbcType="VARCHAR"/>
+        <result column="status" property="status" jdbcType="VARCHAR"/>
+        <result column="create_time" property="createTime" jdbcType="TIMESTAMP"/>
+        <result column="update_time" property="updateTime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id, user_id, product_id, quantity, original_price, discount_amount, final_price, coupon_id, status, create_time, update_time
+    </sql>
+
+    <insert id="insert" parameterType="com.rois.happy_shopping.entity.Order">
+        insert into orders (id, user_id, product_id, quantity, original_price, discount_amount, final_price, coupon_id, status, create_time, update_time)
+        values (#{id}, #{userId}, #{productId}, #{quantity}, #{originalPrice}, #{discountAmount}, #{finalPrice}, #{couponId}, #{status}, #{createTime}, #{updateTime})
+    </insert>
+
+    <select id="findById" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from orders
+        where id = #{id}
+    </select>
+
+    <select id="findByUserId" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from orders
+        where user_id = #{userId}
+        order by create_time desc
+    </select>
+
+    <update id="updateStatus">
+        update orders
+        set status = #{status}, update_time = now()
+        where id = #{id}
+    </update>
+
+</mapper>

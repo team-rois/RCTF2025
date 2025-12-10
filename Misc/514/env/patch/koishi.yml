@@ -1,0 +1,78 @@
+plugins:
+  group:server:
+    server:yrt4za:
+      port: 5140
+      maxPort: 5149
+    ~server-satori:4a5c8c: {}
+    ~server-temp:in16cp: {}
+  group:basic:
+    ~admin:tnisa7: {}
+    ~bind:07uqcj: {}
+    commands:fcfz9r: {}
+    help:tj2694: {}
+    http:c3980a: {}
+    ~inspect:bep4w8: {}
+    locales:10cpca: {}
+    proxy-agent:9hjj24:
+      proxyAgent: http://127.0.0.1:7890
+    rate-limit:9enlml: {}
+    telemetry:c46z2c: {}
+  group:console:
+    actions:12nvqa: {}
+    analytics:j8afpj: {}
+    android:bo77l9:
+      $if: env.KOISHI_AGENT?.includes('Android')
+    auth:hfi7d9:
+      admin:
+        password: royYFYwxQel8iZK+0ztjGw==NPYRAZTlWuW+Yx/8ZAVNXQ==
+    config:ab6k8s: {}
+    console:n2unsp:
+      open: false
+    dataview:b4re4p: {}
+    desktop:zvr0sy:
+      $if: env.KOISHI_AGENT?.includes('Desktop')
+    explorer:e6ctyv: {}
+    logger:6t5evk: {}
+    insight:blbpmd: {}
+    market:734ssq:
+      search:
+        endpoint: https://registry.koishi.chat/index.json
+    notifier:fjhc7z: {}
+    oobe:pblvay: {}
+    sandbox:a8395u: {}
+    status:mgd9ai: {}
+    theme-vanilla:zw7dvu: {}
+  group:storage:
+    ~database-mongo:e4iopx:
+      database: koishi
+    ~database-mysql:sqfsc4:
+      database: koishi
+    ~database-postgres:yixoph:
+      database: koishi
+    database-sqlite:l9px0e:
+      path: data/koishi.db
+    assets-local:9psdxd: {}
+  group:adapter:
+    ~adapter-dingtalk:nt9ml6: {}
+    adapter-discord:cm64td:
+      token: >-
+        xYmaPePXtVsUQWGY74db1t4iq1Ojqas8xJjIkQHxiFYx7Oi8GrwOxqegcRbERkLuN9i5d1hbJAMzc2UVZkzsq8jsJ8EPl+VunX5qCM9cVhyZqB3F5W+cuvfdc4XZOWowrrFaIg/ofYJw9uPENah7/Q==3WD1TcLcp2eo4Sy4u/T4wg==
+      intents:
+        - DIRECT_MESSAGES
+    ~adapter-kook:x2laqr: {}
+    ~adapter-lark:93xiqh: {}
+    ~adapter-line:zwdbcy: {}
+    ~adapter-mail:1yn601: {}
+    ~adapter-matrix:ptr0p2: {}
+    ~adapter-qq:zte6li: {}
+    ~adapter-satori:wqcyyw: {}
+    ~adapter-slack:sfujrd: {}
+    ~adapter-telegram:lffgys: {}
+    ~adapter-wechat-official:k7ypgi: {}
+    ~adapter-wecom:2lxd3k: {}
+    ~adapter-whatsapp:k4wpu1: {}
+    ~adapter-zulip:gdig38: {}
+  group:develop:
+    $if: env.NODE_ENV === 'development'
+    hmr:s1k6y8:
+      root: .

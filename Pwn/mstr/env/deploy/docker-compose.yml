@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  pwn_challenge:
+    build: .
+    container_name: py_pwn4
+    ports:
+      - "9999:9999"
+      - "1234:1234"
+    restart: always
+
+    cap_add:
+      - SYS_PTRACE
+
+    pid: host
+
+    ulimits:
+      nproc: 512
+      nofile: 2048
